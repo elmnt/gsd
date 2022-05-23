@@ -19,19 +19,30 @@ lang: "en" # or fr, de, es etc.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
+# Adding plugin for PurgeCSS
+plugins:
+  - jekyll-purgecss
+
+css_dir: "_site/css" # defaults to "css"
+
 # Include styles inline or link to css file?
 # This has to be set to css: inline for the theme to inline styles
 # Set it to anything else, or remove it, to link to /css/style.class
 
-css: inline
-
+# css: inline
+# purgecss --css ./_site/css/style.css --content ./_site/**/*.html
+# purgecss --css _site/css/style.css --content _site/**/*.html --output _site/css/style.css
+# Don't purge when working locally. No reason to.
+# When prepping for production:
+# 1. bundle exec jekyll build
+# 2. purgecss --css _site/css/style.css --content _site/**/*.html --output _site/css/style.css
+# 3. Commit, push, deploy
 
 # Build settings
 markdown: kramdown
 
 sass:
   style: compressed
-
 
 # Defaults
 
@@ -43,7 +54,7 @@ sass:
 defaults:
 -
     scope:
-        path: "/"      # empty string for all files
+        path: "/" # empty string for all files
     values:
         is_home: true
 -
