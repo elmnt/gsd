@@ -1,0 +1,25 @@
+{
+  "name": "gsdjek",
+  "version": "1.0.0",
+  "description": "My portfolio site",
+  "main": "_config.yml",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "repo"
+  },
+  "keywords": [
+    "turtles"
+  ],
+  "author": "Greg Smith",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leonp/jekyll-tachyons/issues"
+  },
+  "homepage": "https://github.com/leonp/jekyll-tachyons#readme",
+  "dependencies": {
+    "tachyons-sass": "^4.9.5"
+  }
+}

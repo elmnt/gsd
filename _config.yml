@@ -1,10 +1,5 @@
 # Welcome to Jekyll!
 #
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 
@@ -13,11 +8,12 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: "Site title"
-description: "A site description"
+title: "Greg Smith"
+description: "I kick ass."
 lang: "en" # or fr, de, es etc.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "https://gregsmith.design" 
+# base hostname & protocol for your site e.g. http://example.com
 
 # Adding plugin for PurgeCSS
 plugins:
@@ -27,19 +23,22 @@ css_dir: "_site/css" # defaults to "css"
 
 # Include styles inline or link to css file?
 # This has to be set to css: inline for the theme to inline styles
-# Set it to anything else, or remove it, to link to /css/style.class
+# Set it to anything else, or remove it, to link to /css/style.css
 
 # css: inline
-# purgecss --css ./_site/css/style.css --content ./_site/**/*.html
-# purgecss --css _site/css/style.css --content _site/**/*.html --output _site/css/style.css
+# The best approach for inline CSS: See build process below.
+
 # Don't purge when working locally. No reason to.
 # When prepping for production:
 # 1. bundle exec jekyll build
 # 2. purgecss --css _site/css/style.css --content _site/**/*.html --output _site/css/style.css
-# 3. Commit, push, deploy
+# 4. Commit, push, deploy
 
 # Build settings
 markdown: kramdown
+
+kramdown:
+  auto_ids: false
 
 sass:
   style: compressed

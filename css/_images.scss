@@ -1,0 +1,14 @@
+/**
+ * Image settings
+ */
+
+figure {
+   img {
+      border: 4px solid rgba(99,99,99, 0.125);
+   }
+   figcaption {
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+      @extend .gray;
+   }
+}

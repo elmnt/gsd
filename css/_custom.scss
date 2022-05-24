@@ -1,0 +1,35 @@
+/**
+ * Custom styles on top of Tachyons
+ */
+
+.divider {
+    width: 80px;
+    height: 5px;
+}
+
+/**
+ * Add breakpoint setting for BG colors
+ * ( In use now in the header links )
+ */
+@media #{$breakpoint-not-small}{
+    .bg-transparent-ns { 
+        background-color: $transparent; 
+    }
+}
+
+@media #{$breakpoint-medium}{
+    .black-m { 
+        color: black; 
+    }
+}
+
+@media #{$breakpoint-large}{
+    .black-l { 
+        color: black; 
+    }
+}
+
+ul, li {
+    font-size: 1.25rem !important;
+    line-height: 1.5 !important;
+}
