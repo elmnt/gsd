@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="{{ site.lang }}">
 <head>
     {% if page.is_home %}
@@ -9,6 +9,14 @@
     {% endif %}
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=IBM+Plex+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <!--
+    font-family: 'IBM Plex Mono', monospace;
+    font-family: 'IBM Plex Sans', sans-serif;
+    -->
     {% if site.css == 'inline' %}
     <style>
         {% capture inline-styles %}
@@ -21,10 +29,16 @@
     {% endif %}
 </head>
 
-<body class="ma0 pa2 pa4-ns bg-white dark-gray sans-serif lh-copy">
+<body class="dark-gray ma0 pa0" style="background-color:#fefcf8">
 
 <p class="clip"><a href="#content">Skip to content</a></p>
 
-<div class="measure center">
-    <h1 class="ma0 f5 lh-title"><a href="/" class="dark-gray no-underline">{{ site.title }}<a></h1>
-    <main id="content">
+<div class="wrapper">
+<div class="container">
+
+    <header class="flex-row flex-m flex-l items-center justify-between mt4 mb6">
+        <h1 class="f4 mt0 mb4 mb0-m mb0-l"><a class="black link fw7" href="/">{{ site.title }}</a></h1>
+        {% include menu.html %}
+    </header>
+
+    <main role="main">
