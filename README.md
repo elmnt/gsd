@@ -1,4 +1,8 @@
-# Jekyll Tachyons
+# Greg Smith Design
+
+Migrating from Kirby CMS to Jekyll, just for kicks.
+
+#### Jekyll Tachyons README left in place for now:
 
 Jekyll Tachyons is a base Jekyll theme that:
 
