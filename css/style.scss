@@ -5,36 +5,15 @@ sitemap: false
 @charset 'UTF-8';
 
 /**
- * Basic CSS Reset
- * These will be in effect if Tachyons normalize is not used.
- * Border box styles are taken care of in 'box-sizing' partial
- */
-figure {
-  margin: 0;
-  padding: 0;
-}
-img { 
-  max-width: 100%; 
-  height: auto;
-}
-
-/**
  * Get Tachyons
  */
 @import "../node_modules/tachyons-sass/tachyons.scss";
 
 /**
- * New breakpoint variables
- * Do they belong here?
- */
-$bp1: 1280px;
-$bp2: 1024px;
-$bp3: 768px;
-
-/**
  * My custom partials
  */
 @import '../css/fonts';
+@import '../css/links';
 @import '../css/images';
 @import '../css/grid';
 @import '../css/custom';

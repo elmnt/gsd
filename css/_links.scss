@@ -1,0 +1,18 @@
+/**
+ * Global link styles
+ */
+
+p {
+  a {
+    color: $dark-red;
+    &:visited {
+      color: $dark-red;
+    }
+    &:hover {
+      color: black;
+    }
+    &:active {
+      color: black;
+    }
+  }
+}

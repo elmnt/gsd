@@ -2,16 +2,18 @@
  * CSS Grid Settings
  */
 
- /*
+/* Tachyons breakpoint settings, for reference 
 $breakpoint-not-small: 'screen and (min-width: 768px)';
 $breakpoint-medium: 'screen and (min-width: 768px) and (max-width: 1280px)';
 $breakpoint-large: 'screen and (min-width: 1280px)';
 
-$bp0: 1440px;
-$bp1: 1280px;
-$bp2: 1024px;
-$bp3: 768px;
-*/
+/**
+ * New breakpoint variables
+ */
+ $bp0: 1440px;
+ $bp1: 1280px;
+ $bp2: 1024px;
+ $bp3: 768px;
 
 .wrapper {
 	padding: 0 1em;
@@ -68,34 +70,3 @@ $bp3: 768px;
 		grid-template-columns: 1fr 1fr;
 	}
 }
-
-/**
- * CSS Grid settings: removed for a simpler option
- */
-/*
-.grid {
-	display: grid;
-	grid-template-columns: repeat( 12, 1fr );
-	grid-template-rows: auto;
-	grid-template-areas: 
-		". . . . a a a a . . . ."
-		". . . b b b b b b . . ."
-		". . c c c c c c c c . ."
-		". d d d d d d d d d d ."
-		"e e e e e e e e e e e e";
-	grid-column-gap: 1em;
-	.grid__content {
-		grid-area: e;
-		@media only screen and (min-width: $bp3) {
-			grid-area: b;
-		}
-		// make the images wider on larger screens
-		figure {
-			@media only screen and (min-width: $bp3) {
-				margin-left: -7em;
-				margin-right: -7em;
-			}
-		}
-	}
-}
-*/

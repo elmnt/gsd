@@ -1,34 +1,28 @@
-# Welcome to Jekyll!
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+# If you change this file, restart the server.
 
 # Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
+# {{ site.title }}, {{ site.email }}, etc.
+# Custom variables will be accessible in the templates via {{ site.myvariable }}.
 title: "Greg Smith"
 description: "I kick ass."
-lang: "en" # or fr, de, es etc.
-baseurl: "/" # the subpath of your site, e.g. /blog
+lang: "en"
+baseurl: "/"
 url: "https://gregsmith.design" 
-# base hostname & protocol for your site e.g. http://example.com
 
 # DATA
 team_members:
   -
     name: "Sarah Becker"
     role: "project lead"
-    start_date: "2016-02-01"
+    start: "2016-02-01"
   -
     name: "Jane Smith"
-    role: maintainer
-    start_date: "2018-03-15"
+    role: "maintainer"
+    start: "2018-03-15"
   -
     name: "Albert Hamilton"
-    role: editor
-    start_date: "2017-12-01"
+    role: "editor"
+    start: "2017-12-01"
 
 # COLLECTIONS
 collections:
@@ -44,13 +38,8 @@ plugins:
 
 css_dir: "_site/css" # defaults to "css"
 
-# Include styles inline or link to css file?
-# This has to be set to css: inline for the theme to inline styles
-# Set it to anything else, or remove it, to link to /css/style.css
-
+# Default CSS path: /css/style.css
 # css: inline
-# The best approach for inline CSS: See build process below.
-
 # Don't purge when working locally. No reason to.
 # When prepping for production:
 # 1. bundle exec jekyll build
@@ -67,7 +56,6 @@ sass:
   style: compressed
 
 # Defaults
-
 # Enable is_homepost test for posts
 # Enable is_page test for pages
 # Enable is_home test for home page
@@ -92,10 +80,10 @@ defaults:
     values:
         is_page: true
 
-
 # Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
+# The following items will not be processed, by default.
+# Create a custom list to override the default setting.
+
 exclude:
 - Gemfile
 - Gemfile.lock
