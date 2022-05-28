@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Work
-permalink: /work/
+permalink: /work
+weight: 3
 ---
 
 {% for work in site.collections %}

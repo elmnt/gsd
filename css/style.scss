@@ -1,5 +1,6 @@
 ---
 sitemap: false
+exclude: true
 ---
 
 @charset 'UTF-8';
@@ -7,14 +8,18 @@ sitemap: false
 /**
  * Get Tachyons
  */
-@import "../node_modules/tachyons-sass/tachyons.scss";
+@import "./node_modules/tachyons-sass/tachyons.scss";
 
 /**
  * My custom partials
  */
-@import '../css/fonts';
-@import '../css/links';
-@import '../css/images';
-@import '../css/grid';
-@import '../css/custom';
-// @import '../css/vendor';
+@import 
+  './css/scss/fonts',
+  './css/scss/links',
+  './css/scss/images',
+  './css/scss/grid',
+  './css/scss/custom'
+;
+
+// Styles for Prism
+// @import './css/scss/vendor';

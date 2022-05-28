@@ -6,8 +6,8 @@
 title: "Greg Smith"
 description: "I kick ass."
 lang: "en"
-baseurl: "/"
-url: "https://gregsmith.design" 
+baseurl: ""
+url: "https://gregsmith.design"
 
 # DATA
 team_members:
@@ -37,6 +37,9 @@ plugins:
   - jekyll-purgecss
 
 css_dir: "_site/css" # defaults to "css"
+
+sass:
+    sass_dir: css
 
 # Default CSS path: /css/style.css
 # css: inline
