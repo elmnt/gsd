@@ -1,34 +1,22 @@
 {% include header.html %}
 
-<!--
-{% if page.title == 'Home' %}
-    <p>Home</p>
-{% else if page.title == 'About' %}
-    <p>About</p>
-{% endif %}
--->
-
 <section class="grid--content">
 
-    <header>
-        <div class="mb5">
-            <h1 class="abril f-subheadline f-headline-ns fw4 lh-title black mb5">{{ page.title }}</h1>
-            {% if page.title == 'About' %}
-                <p>Bio pic</p>
-            {% endif %}
-        </div>
-        <h2 class="f4 fw7 black lh-copy mb5">{{ page.intro }}</h2>
-    </header>
+    <div>
+
+    {% include page-header.html %}
 
     <!-- Pass a parameter into the include -->
     {% include section-title.html label="Shizzle" %}
 
+    <!--
     {% include button.html addclass="CLASS" link="LINK" label="LABEL" %}
-
-    <div>
-        {{ content}}
-        <a class="bg-black white link pa3" href="/">button</a>
+    <button class="plex">Button</button>
+    -->
+    
     </div>
+
+    {{ content }}
 
     <!-- if home: snippet: showcase -->
 

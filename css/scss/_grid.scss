@@ -33,23 +33,58 @@ $breakpoint-large: 'screen and (min-width: 1280px)';
 
 .grid--content {
 
+	// mobile first: everything is full width
 	width: 100%;
 
 	@media only screen and (min-width: $bp3) {
-		display: grid;  
-		// grid-template-columns: 1fr 1fr 768px 1fr 1fr;
+
+		// At breakpoint $bp3 (768px) turn on display:grid;
+		display: grid;
+
+		// fr = fractional unit (one part of the available space)
+		// For instance: 1fr 1fr 1fr 1fr (four columns, each column is 1/4 of the available space)
+		// Set up grid columns 1fr 1fr [ content ] 1fr 1fr
+		// The [ content ] will ne no less than 200px and no more than 768px
+		//
+		// Column numbers, L to R
+		// 1     2     3     4     5     6
+		// |-----|-----|-----|-----|-----|
+		//
+		// Column numbers, R to L
+		// -6   -5    -4    -3    -2    -1
+		// |-----|-----|-----|-----|-----|
+		//
 		grid-template-columns: 1fr 1fr minmax(200px, 768px) 1fr 1fr;
+
+		// Gap between columns will be 1em
 		grid-gap: 1em;
-		> * {  
-			grid-column: 3;  
+
+		// At this breakpoint, all content fills column 3
+		// THIS IS CAUSING A BUG WHERE EVEN INLINE BLOCK ELEMENTS
+		// ARE STRETCHING THE FULL COLUMN WIDTH (for instance: <button>)
+		// > * {
+
+		// This works better. Just have to make sure every parent element
+		// that might show up in the content is accounted for
+		>
+		div,
+		p,
+		ul {
+			grid-column: 3;
 		}
+
+		// figures with the class .big will start at 1
+		// anb span to -1 (should be the same as using 6??)
 		> figure.big {  
 			grid-column: 1 / -1;  
-			margin: 3em 0 2em 0;  
+			margin: 1em 1em;
 		}
+
+		// figures will start at 2 and span to -2
+		// (should be the same is using 5??)
 		> figure {  
-			grid-column: 2 / -2;  
-			margin: 3em 0 2em 0;  
+			grid-column: 2 / -2;
+			margin: 1em 1em;
 		}
 	}
 

@@ -24,14 +24,6 @@ team_members:
     role: "editor"
     start: "2017-12-01"
 
-# COLLECTIONS
-collections:
-  work:
-    output: true
-    permalink: /:collection/:title
-    title: shiz
-    description: shazzlesz
-
 # Adding plugin for PurgeCSS
 plugins:
   - jekyll-purgecss

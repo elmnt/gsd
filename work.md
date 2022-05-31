@@ -1,8 +1,8 @@
 ---
-layout: default
-title: About
+layout: work
+title: Work
 intro: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-weight: 2
+weight: 3
 ---
 
 {: .lh-copy .plex .f5 .f4-m .f4-l}
