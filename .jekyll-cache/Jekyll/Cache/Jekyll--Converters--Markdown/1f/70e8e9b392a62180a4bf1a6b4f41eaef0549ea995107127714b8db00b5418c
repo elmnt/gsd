@@ -1,0 +1,35 @@
+I"ÿ<div class="mt3">
+   <div class="divider bg-black"></div>
+   <h3 class="plexb f3">Shizzle</h3>
+</div>
+
+<p class="lh-copy plex f5 f4-m f4-l">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+<figure>
+  <img src="img/coffee.jpg" alt="Coffee" />
+  <figcaption class="plex f5 gray">You're addicted to coffee</figcaption>
+</figure>
+
+<ul class="plex lh-copy f5">
+  <li>Name: Sarah Becker</li>
+  <li>Role: project lead</li>
+  <li>Start date: 2016-02-01</li>
+  <li>Role: project lead</li>
+</ul>
+
+<ul class="plex lh-copy f5">
+  <li>Name: Jane Smith</li>
+  <li>Role: maintainer</li>
+  <li>Start date: 2018-03-15</li>
+  <li>Role: maintainer</li>
+</ul>
+
+<ul class="plex lh-copy f5">
+  <li>Name: Albert Hamilton</li>
+  <li>Role: editor</li>
+  <li>Start date: 2017-12-01</li>
+  <li>Role: editor</li>
+</ul>
+
+<p class="plex lh-copy f5"><a href="/2018/03/11/example-post/">Read a post</a>.</p>
+:ET

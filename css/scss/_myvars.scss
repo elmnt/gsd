@@ -13,7 +13,18 @@ $plex: 'IBM Plex Mono', monospace;
 /**
  * Reset Tachyons colors
  */
+
+/*
+$near-black: #111; <- headers
+$dark-gray: #333;  <- type
+$mid-gray: #555;
+$gray: #777;
+$silver: #999;
+*/
+$dark-gray: #222;
+$mid-gray: #444;
 $gray: #666;
+$silver: #888;
 
 /**
  * Reset tachyons media query variables

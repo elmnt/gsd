@@ -3,11 +3,11 @@
 <footer role="contentinfo" class="grid--content">
 
     <div class="mt3 mb5">
-        <p class="plexb">Colophon:</p>
-        <p class="plex">This site is built with <a href="https://jekyllrb.com">Jekyll</a> and <a href="https://github.com/tachyons-css/tachyons-sass">Tachyons</a></p>  
-        <p class="plex">Typeset in <a href="https://fonts.google.com/specimen/Abril+Fatface">Abril Fatface</a> and <a href="https://fonts.google.com/specimen/IBM+Plex+Mono?query=IBM">IBM Plex Mono</a></p>
-        <p class="plex">Copyright &copy; 2002 - {{ site.time | date: '%Y' }} Greg Smith</p>
-        <p class="plex"><a href="https://www.linkedin.com/in/elmnt/">LinkedIn</a>&nbsp;&nbsp;/&nbsp;&nbsp;<a href="https://github.com/elmnt">GitHub</a></p>            
+        {% include section-title.html label="Colophon" %}
+        <p class="plex lh-solid f5">This site is built with <a href="https://jekyllrb.com">Jekyll</a> and <a href="https://github.com/tachyons-css/tachyons-sass">Tachyons</a></p>  
+        <p class="plex lh-solid f5">Typeset in <a href="https://fonts.google.com/specimen/Abril+Fatface">Abril Fatface</a> and <a href="https://fonts.google.com/specimen/IBM+Plex+Mono?query=IBM">IBM Plex Mono</a></p>
+        <p class="plex lh-solid f5">Copyright &copy; 2002 - {{ site.time | date: '%Y' }} Greg Smith</p>
+        <p class="plex lh-solid f5"><a href="https://www.linkedin.com/in/elmnt/">LinkedIn</a>&nbsp;/&nbsp;<a href="https://github.com/elmnt">GitHub</a></p>            
     </div>
 
 </footer>
@@ -16,6 +16,59 @@
 </div><!-- wrapper -->
 
 <!-- app.min.js -->
+
+<script>
+(function() {
+    var colors = ["#dd38b9","#fadc4a","#a22bc2","#f08b3b","#7a214a",
+    "#ec5242","#94d9fb","#2d74d2","#071f3d","#68c9cb","#75f8a1",
+    "#579773","#65c855","#001f3f","#0074D9","#7FDBFF","#39CCCC",
+    "#3D9970","#2ECC40","#01FF70","#FFDC00","#FF851B","#FF4136",
+    "#85144b","#F012BE","#B10DC9"];
+    // get all h2 tags
+    // var hx = document.getElementsByTagName('h2');
+    var hx = document.getElementsByClassName('blog-link');
+    // for each h2 tag, get all the a tags inside of it
+    for (var c = 0; c < hx.length; c++) {
+        var links = hx[c].getElementsByTagName('a');
+        for (var d = 0; d < links.length; d++) {
+            var randomColour = colors[Math.floor(colors.length * Math.random())];
+            // color the h2
+            // links[d].style.color = randomColour;
+            // color the bottom border
+            links[d].style.borderColor = randomColour;
+        }
+    }
+})();
+</script>
+
+<style>
+.dot { color: #dd38b9; }
+.dot { color: #fadc4a; }
+.dot { color: #a22bc2; }
+.dot { color: #f08b3b; }
+.dot { color: #7a214a; }
+.dot { color: #ec5242; }
+.dot { color: #94d9fb; }
+.dot { color: #2d74d2; }
+.dot { color: #071f3d; }
+.dot { color: #68c9cb; }
+.dot { color: #75f8a1; }
+.dot { color: #579773; }
+.dot { color: #65c855; }
+.dot { color: #001f3f; }
+.dot { color: #0074D9; }
+.dot { color: #7FDBFF; }
+.dot { color: #39CCCC; }
+.dot { color: #3D9970; }
+.dot { color: #2ECC40; }
+.dot { color: #01FF70; }
+.dot { color: #FFDC00; }
+.dot { color: #FF851B; }
+.dot { color: #FF4136; }
+.dot { color: #85144b; }
+.dot { color: #F012BE; }
+.dot { color: #B10DC9; }
+</style>
 
 </body>
 </html>

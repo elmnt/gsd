@@ -60,3 +60,23 @@
   border-bottom-width: .25rem; 
   border-bottom-style: solid;
 }
+
+/**
+ * Global type colors
+ * $near-black: #111 !default;
+ * $dark-gray: #333 !default;
+ * $mid-gray: #555 !default;
+ */
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: #111;
+}
+
+p,
+li {
+  color: #222;
+}

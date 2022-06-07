@@ -1,6 +1,9 @@
 <header>
     <div class="mb5">
         <h1 class="abril f-subheadline f-headline-ns lh-title black mb3 mb4-m mb4-l">{{ page.title }}</h1>
+        {% if page.id %}
+        <p class="plex f5 gray"><time>{{ page.date | date: "%b %-d,  %Y" }}</time></p>
+        {% endif %}
     </div>
     <h2 class="plex f4 f3-m f3-l black lh-copy mb3 mb4-m mb4-l">{{ page.intro }}</h2>
 </header>
