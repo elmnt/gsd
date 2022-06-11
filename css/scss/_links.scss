@@ -2,7 +2,8 @@
  * Global link styles
  */
 
-p {
+p,
+li {
   a {
     color: $dark-red;
     &:visited {
@@ -14,5 +15,24 @@ p {
     &:active {
       color: black;
     }
+  }
+}
+
+/**
+ * Fancy blog link underlines
+ */
+
+.blog-link a {
+  border-bottom-width: .25rem; 
+  border-bottom-style: solid;
+  color: #222;
+  &:visited {
+    color: #222;
+  }
+  &:hover {
+    color: #222;
+  }
+  &:active {
+    color: #222;
   }
 }

@@ -1,7 +1,6 @@
 ---
-title: Attracting attention to yourself
+title: All the things are the place where the stuff is at
 layout: post
-date: Friday, Jun 10, 2022
 intro: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 ---
 

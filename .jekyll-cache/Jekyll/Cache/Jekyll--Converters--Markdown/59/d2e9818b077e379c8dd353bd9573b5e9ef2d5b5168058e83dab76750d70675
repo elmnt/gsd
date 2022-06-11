@@ -1,0 +1,46 @@
+I"¦<p class="lh-copy plex f5 f4-m f4-l">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+<div class="mt3">
+   <div class="divider bg-near-black"></div>
+   <h3 class="plexb f3 near-black">Articles</h3>
+</div>
+
+<ul class="list ma0 pa0">
+  
+  <li class="plex lh-copy mb4 blog-link">
+    <span class="f5 gray">June 10th, 2022</span><br />
+    <span class="f5 f4-m f4-l lh-copy">
+      <a class="link" href="/2022/06/10/example-post.html">All the things are the place where the stuff is at</a>
+    </span>
+  </li>
+  
+  <li class="plex lh-copy mb4 blog-link">
+    <span class="f5 gray">June 10th, 2022</span><br />
+    <span class="f5 f4-m f4-l lh-copy">
+      <a class="link" href="/2022/06/10/example-post.html">Attracting attention to yourself</a>
+    </span>
+  </li>
+  
+  <li class="plex lh-copy mb4 blog-link">
+    <span class="f5 gray">June 9th, 2022</span><br />
+    <span class="f5 f4-m f4-l lh-copy">
+      <a class="link" href="/2022/06/09/example-post.html">These were things where I was saying fuck you</a>
+    </span>
+  </li>
+  
+  <li class="plex lh-copy mb4 blog-link">
+    <span class="f5 gray">June 8th, 2022</span><br />
+    <span class="f5 f4-m f4-l lh-copy">
+      <a class="link" href="/2022/06/08/example-post.html">I never really belived much in authority</a>
+    </span>
+  </li>
+  
+  <li class="plex lh-copy mb4 blog-link">
+    <span class="f5 gray">June 7th, 2022</span><br />
+    <span class="f5 f4-m f4-l lh-copy">
+      <a class="link" href="/2022/06/07/example-post.html">This is where I went to school</a>
+    </span>
+  </li>
+  
+</ul>
+:ET

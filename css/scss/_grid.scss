@@ -54,7 +54,7 @@ $breakpoint-large: 'screen and (min-width: 1280px)';
 		// -6   -5    -4    -3    -2    -1
 		// |-----|-----|-----|-----|-----|
 		//
-		grid-template-columns: 1fr 1fr minmax(200px, 768px) 1fr 1fr;
+		grid-template-columns: 1fr 1fr minmax(200px, $bp3) 1fr 1fr;
 
 		// Gap between columns will be 1em
 		grid-gap: 1em;
