@@ -1,6 +1,7 @@
 ---
 layout: default
-title: About
+title: About me
+navlabel: About
 intro: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 weight: 2
 ---
