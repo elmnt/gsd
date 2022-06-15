@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Writing
+title: Writing<span class="dark-red">.</span>
 navlabel: Writing
 intro: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 exclude: false

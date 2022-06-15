@@ -1,6 +1,6 @@
 ---
 layout: default
-title: About me
+title: About me<span class="dark-red">.</span>
 navlabel: About
 intro: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 weight: 2
