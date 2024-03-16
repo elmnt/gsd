@@ -1,38 +1,46 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="{{ site.lang }}">
-<head>
-    {% if page.is_home %}
-    <title>{{ site.title }}</title>
-    <meta name="description" content="{{ site.description }}">
-    {% else %}
-    <title>{{ page.title }} &#8211; {{ site.title }}</title>
-    {% endif %}
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta charset="utf-8">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=IBM+Plex+Mono:wght@400;600&display=swap">
-    {% if site.css == 'inline' %}
-    <style>
-        {% capture inline-styles %}
-        {% include style.scss %}
-        {% endcapture %}
-        {{ inline-styles | scssify }}
-    </style>
-    {% else %}
-    <link href="/css/style.css" rel="stylesheet">
-    {% endif %}
-</head>
+	<head>
+		{% if page.is_home %}
+		<title>{{ site.title }}</title>
+		<meta name="description" content="{{ site.description }}" />
+		{% else %}
+		<title>{{ page.title }} &#8211; {{ site.title }}</title>
+		{% endif %}
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta charset="utf-8" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			rel="stylesheet"
+			href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=IBM+Plex+Mono:wght@400;600&display=swap"
+		/>
+		{% if site.css == 'inline' %}
+		<style>
+			{% capture inline-styles %}
+			{% include style.scss %}
+			{% endcapture %}
+			{{ inline-styles | scssify }}
+		</style>
+		{% else %}
+		<link href="/css/style.css" rel="stylesheet" />
+		{% endif %}
+	</head>
 
-<body style="margin:0; padding:0; background-color:#fefaf1;">
-<div class="wrapper">
-<div class="container">
+	<body style="margin: 0; padding: 0; background-color: #fefaf1">
+		<div class="wrapper">
+			<div class="container">
+				<header class="grid--content">
+					<div class="flex-row flex-m flex-l items-center justify-between mt4 mb4 mb5-m mb5-l">
+						<h1 class="plex f4 mt0 mb4 mb0-m mb0-l">
+							<a class="black link" href="/">{{ site.title }}</a>
+						</h1>
+						{% include menu.html %}
+					</div>
+				</header>
 
-<header class="grid--content">
-    <div class="flex-row flex-m flex-l items-center justify-between mt4 mb4 mb5-m mb5-l">
-        <h1 class="plex f4 mt0 mb4 mb0-m mb0-l"><a class="black link" href="/">{{ site.title }}</a></h1>
-        {% include menu.html %}
-    </div>
-</header>
-
-<main role="main">
+				<main role="main"></main>
+			</div>
+		</div>
+	</body>
+</html>
