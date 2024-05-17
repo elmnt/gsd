@@ -79,9 +79,11 @@ To do this, edit the `_media-queries.scss` file in the `_sass` folder.
 
 By default, it contains these lines, which define your responsive breakpoints:
 
-`$breakpoint-not-small: 'screen and (min-width: 30em)' !default;
+`
+$breakpoint-not-small: 'screen and (min-width: 30em)' !default;
 $breakpoint-medium: 'screen and (min-width: 30em) and (max-width: 60em)' !default;
-$breakpoint-large: 'screen and (min-width: 60em)' !default;`
+$breakpoint-large: 'screen and (min-width: 60em)' !default;
+`
 
 Comment out or delete these lines and replace them with your new screen width ranges. For example:
 
