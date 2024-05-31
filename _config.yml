@@ -4,9 +4,9 @@
 # {{ site.title }}, {{ site.email }}, etc.
 # Custom variables will be accessible in the templates via {{ site.myvariable }}.
 title: "Greg Smith"
-description: "I kick ass."
+description: "Design system leader."
 lang: "en"
-baseurl: ""
+baseurl: "https://gregsmith.design"
 url: "https://gregsmith.design"
 
 # DATA
@@ -29,6 +29,9 @@ plugins:
   - jekyll-purgecss
 
 css_dir: "_site/css" # defaults to "css"
+
+# run purgecss ?
+# purgecss --css "_site/css/style.css" --content "_site/**/*.html"
 
 sass:
     sass_dir: css

@@ -1,20 +1,16 @@
 {% include header.html %}
 
 <section class="grid--content">
+	<div>
+		{% include page-header.html %}
 
-    <div>
-
-    {% include page-header.html %}
-
-    <!--
+		<!--
     {% include button.html addclass="CLASS" link="LINK" label="LABEL" %}
     <button class="plex">Button</button>
     -->
-    
-    </div>
+	</div>
 
-    {{ content }}
-
+	{{ content }}
 </section>
 
 {% include footer.html %}
