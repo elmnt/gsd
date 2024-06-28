@@ -11,16 +11,7 @@
 			rel="stylesheet"
 			href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=IBM+Plex+Mono:wght@400;600&display=swap"
 		/>
-		{% if site.css == 'inline' %}
-		<style>
-			{% capture inline-styles %}
-			{% include style.scss %}
-			{% endcapture %}
-			{{ inline-styles | scssify }}
-		</style>
-		{% else %}
-		<link href="/css/style.css" rel="stylesheet" />
-		{% endif %}
+		<link href="css/style.css" rel="stylesheet" />
 	</head>
 
 	<body style="margin: 0; padding: 0; background-color: #fefaf1">
