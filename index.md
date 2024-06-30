@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Hello<span class="dark-red">.</span>
-intro: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+intro: I'm a UX designer with development experience. My primary focus is design systems. I'm currently leading design system initiatives that scale across multiple business pillars, for the world's largest commerce company.
 exclude: true
 weight: 1
 ---
