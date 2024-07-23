@@ -105,9 +105,3 @@ Because the SASS files refer to each other and `_c.scss` may refer to `_variable
 3. `_variables.scss`
 4. `_colors.scss`
 5. `_spacing.scss`
-
-## Moi
-
-- [leonpaternoster.com](https://www.leonpaternoster.com)
-- [Micro.blog](https://micro.blog/leonp)
-- [Twitter](https://www.mobile.twitter.com/leonpaternoster)
