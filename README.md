@@ -1,8 +1,6 @@
 # Greg Smith Design
 
-Migrating from Kirby CMS to Jekyll, just for kicks.
-
-#### Jekyll Tachyons README left in place for now:
+Using [jekyll-tachyons](https://github.com/leonp/jekyll-tachyons) by [Leon Paternoster](https://www.leonpaternoster.com).
 
 Jekyll Tachyons is a base Jekyll theme that:
 
