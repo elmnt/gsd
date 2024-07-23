@@ -1,6 +1,10 @@
 # Greg Smith Design
 
+## Credit
+
 Using [jekyll-tachyons](https://github.com/leonp/jekyll-tachyons) by [Leon Paternoster](https://www.leonpaternoster.com).
+
+## Jekyll Tachyons
 
 Jekyll Tachyons is a base Jekyll theme that:
 
