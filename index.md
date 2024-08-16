@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Hello<span class="dark-red">.</span>
-intro: I'm a UX designer with development experience. My primary focus is design systems. I'm currently leading design system initiatives that scale across multiple business pillars, for the world's largest commerce company.
+intro: I'm a UX designer with a focus on design systems. I'm currently leading design system initiatives that scale across multiple B2C and B2B products.
 exclude: true
 weight: 1
 ---
@@ -11,15 +11,15 @@ weight: 1
 <div class="flex">
 
   <figure class="mr4" style="width:100%; min-width:200px; max-width:300px;">
-    <img src="img/wgt-600.png" title="Walmart Global Tech" alt="Walmart Global Tech logo">
+    <img src="img/spark-600.png" title="Walmart Global Tech" alt="Walmart Global Tech logo">
     <!-- <figcaption class="plex gray">Walmart Global Tech</figcaption> -->
   </figure>
 
   <div>
     <p class="mt0 pt0 lh-copy plex f5 f4-m f4-l">
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor.
+      Walmart's design system enables speed and consistency for design and engineering teams throughout our digital portfolio. Our customer facing products see hundreds of millions of visitors per month. Our business facing products drive Walmart's global supply chain, enable in-store associates, and allow our partner merchants to manage their retail businesses.
     </p>
-    <p class="lh-copy plex f5 f4-m f4-l"><a href="">Read more</a></p>
+    <!--<p class="lh-copy plex f5 f4-m f4-l"><a href="">Read more</a></p>-->
   </div>
 
 </div>
@@ -27,7 +27,7 @@ weight: 1
 {% include section-title.html label="About me" %}
 
 {: .mt0 .lh-copy .plex .f5 .f4-m .f4-l}
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Hi 👋🏼 I'm Greg Smith. I spent years as a hybrid designer/developer in a client services agency. I've spent the previous seven years in focused UX roles at large commerce companies, where passion for design systems has 
 
 <!--
 <figure>
