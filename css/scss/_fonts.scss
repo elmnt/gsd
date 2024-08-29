@@ -10,17 +10,21 @@
 /**
  * Google fonts
  */
-.abril {
-  font-family: $abril;
+.font-head {
+  font-family: $font-head;
   font-weight: 400;
 }
-.plex {
-  font-family: $plex;
-  font-weight: 400;
-  font-display: block;
+.font-subhead,
+.font-body {
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
 }
-.plexb {
-  font-family: $plex;
-  font-weight: 600;
-  font-display: block;
+.font-subhead {
+  font-family: $font-subhead;
+  font-weight: 700;
+}
+.font-body {
+  font-family: $font-body;
+  font-weight: 400;
 }

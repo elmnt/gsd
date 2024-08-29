@@ -5,6 +5,7 @@
 .divider {
     width: 80px;
     height: 10px;
+    border-radius: 1000px;
 }
 
 /**
@@ -19,13 +20,13 @@
 
 @media #{$breakpoint-medium}{
     .black-m { 
-        color: black; 
+        color: $dark-gray; 
     }
 }
 
 @media #{$breakpoint-large}{
     .black-l { 
-        color: black; 
+        color: $dark-gray; 
     }
 }
 

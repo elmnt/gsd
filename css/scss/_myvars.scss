@@ -7,20 +7,13 @@
 /**
  * Custom fonts
  */
-$abril: 'Abril Fatface', georgia, serif;
-$plex: 'IBM Plex Mono', monospace;
+$font-head: 'Abril Fatface', georgia, serif;
+$font-subhead: 'Open Sans', sans-serif, system-ui;
+$font-body: 'Open Sans', sans-serif, system-ui;
 
 /**
  * Reset Tachyons colors
  */
-
-/*
-$near-black: #111; <- headers
-$dark-gray: #333;  <- type
-$mid-gray: #555;
-$gray: #777;
-$silver: #999;
-*/
 $dark-gray: #222;
 $mid-gray: #444;
 $gray: #666;

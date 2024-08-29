@@ -1,7 +1,7 @@
 <nav role="navigation" class="db mt3 mt0-m mt0-l">
 	{% assign pages = site.pages | sort: "weight" %} {% for p in site.pages %} {% unless p.exclude %}
 	<a
-		class="plexb f5 f4-m f4-l dib mr2 mr0-m mr0-l ml0 ml4-m ml4-l pt2 pr3 pb2 pl3 pa2-m pa2-l ba b--black br2 bw2 bn-m bn-l br0-m br0-l bg-black bg-transparent-ns white black-m black-l link"
+		class="font-subhead f5 f4-m f4-l dib mr2 mr0-m mr0-l ml0 ml4-m ml4-l pt2 pr3 pb2 pl3 pa2-m pa2-l ba b--black br2 bw2 bn-m bn-l br0-m br0-l bg-black bg-transparent-ns white black-m black-l link"
 		href="{{ p.url }}"
 		>{{ p.navlabel }}</a
 	>
