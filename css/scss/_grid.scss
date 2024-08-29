@@ -26,7 +26,7 @@ $breakpoint-large: 'screen and (min-width: 1280px)';
 	margin-left: auto;
 	margin-right: auto;
 	width: 100%;
-	max-width: $bp1;
+	max-width: $bp0;
 }
 
 // .grid {}
@@ -44,7 +44,7 @@ $breakpoint-large: 'screen and (min-width: 1280px)';
 		// fr = fractional unit (one part of the available space)
 		// For instance: 1fr 1fr 1fr 1fr (four columns, each column is 1/4 of the available space)
 		// Set up grid columns 1fr 1fr [ content ] 1fr 1fr
-		// The [ content ] will ne no less than 200px and no more than 768px
+		// The [ content ] will be no less than 200px and no more than 768px
 		//
 		// Column numbers, L to R
 		// 1     2     3     4     5     6
@@ -84,6 +84,12 @@ $breakpoint-large: 'screen and (min-width: 1280px)';
 		// (should be the same is using 5??)
 		> figure {  
 			grid-column: 2 / -2;
+			margin: 1em 1em;
+		}
+
+		// Expand the header (or other content) a bit more
+		> .expand {  
+			grid-column: 1 / -1;
 			margin: 1em 1em;
 		}
 	}

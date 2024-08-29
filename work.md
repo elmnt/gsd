@@ -7,6 +7,11 @@ exclude: false
 weight: 3
 ---
 
+<figure>
+  <img src="img/coffee.jpg" alt="Coffee">
+  <figcaption class="plex gray">You're addicted to coffee</figcaption>
+</figure>
+
 {% include section-title.html label="Shizzle" %}
 
 {% include button.html label="Shizzle" %}
