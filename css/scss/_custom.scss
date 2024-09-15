@@ -7,6 +7,12 @@
     height: 10px;
     border-radius: 1000px;
 }
+.hilight {
+    color: $dark-red;
+}
+.hilightbg {
+    background-color: $dark-red;
+}
 
 /**
  * Add breakpoint setting for BG colors
