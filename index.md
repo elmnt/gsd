@@ -12,16 +12,26 @@ weight: 1
 
   <figure class="mr4" style="width:100%; min-width:200px; max-width:300px;">
     <img src="img/spark-600.png" title="Walmart" alt="Walmart logo">
-    <!--<figcaption class="gray">Walmart Design</figcaption>-->
+    <figcaption class="gray">Walmart Design</figcaption>
   </figure>
 
   <div>
     <p class="mt0 pt0 lh-copy f5 f4-m f4-l">
       Walmart's design system enables speed and consistency for design and engineering teams throughout our digital portfolio. Our customer facing products see hundreds of millions of visitors per month. Our business facing products drive Walmart's global supply chain, enable in-store associates, and allow our partner merchants to manage their retail businesses.
     </p>
-    <!--<p class="lh-copy plex f5 f4-m f4-l"><a href="">Read more</a></p>-->
+    <p class="mt0 pt0 lh-copy f5 f4-m f4-l">
+      I'm currently leading a design system initiative to scale our core system into our product design space, creating a multi-layered structure that adheres to our branded foundations at every level of complexity and abstraction.
+    </p>
+    <p class="lh-copy plex f5 f4-m f4-l"><a href="">Read more</a></p>
   </div>
 
+</div><!-- /flex -->
+
+<div>
+  {% include button-link.html label="Link" %}
+</div>
+<div>
+  {% include button.html label="Button" %}
 </div>
 
 {% include section-title.html label="About me" %}
