@@ -11,19 +11,19 @@ url: "https://gregsmith.design"
 # | prepend: site.baseurl
 
 # DATA
-team_members:
-  -
-    name: "Sarah Becker"
-    role: "project lead"
-    start: "2016-02-01"
-  -
-    name: "Jane Smith"
-    role: "maintainer"
-    start: "2018-03-15"
-  -
-    name: "Albert Hamilton"
-    role: "editor"
-    start: "2017-12-01"
+# team_members:
+#   -
+#     name: "Sarah Becker"
+#     role: "project lead"
+#     start: "2016-02-01"
+#   -
+#     name: "Jane Smith"
+#     role: "maintainer"
+#     start: "2018-03-15"
+#   -
+#     name: "Albert Hamilton"
+#     role: "editor"
+#     start: "2017-12-01"
 
 # run purgecss
 # purgecss --css "_site/css/style.css" --content "_site/**/*.html"

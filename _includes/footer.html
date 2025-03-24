@@ -24,17 +24,11 @@
     "#579773","#65c855","#001f3f","#0074D9","#7FDBFF","#39CCCC",
     "#3D9970","#2ECC40","#01FF70","#FFDC00","#FF851B","#FF4136",
     "#85144b","#F012BE","#B10DC9"];
-    // get all h2 tags
-    // var hx = document.getElementsByTagName('h2');
     var hx = document.getElementsByClassName('blog-link');
-    // for each h2 tag, get all the a tags inside of it
     for (var c = 0; c < hx.length; c++) {
         var links = hx[c].getElementsByTagName('a');
         for (var d = 0; d < links.length; d++) {
             var randomColour = colors[Math.floor(colors.length * Math.random())];
-            // color the h2
-            // links[d].style.color = randomColour;
-            // color the bottom border
             links[d].style.borderColor = randomColour;
         }
     }

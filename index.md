@@ -3,7 +3,6 @@ layout: default
 title: Hello<span class="hilight">.</span>
 intro: I'm a UX designer with a focus on design systems. I'm currently leading design system initiatives that scale across multiple B2C and B2B products.
 exclude: true
-weight: 1
 ---
 
 {% include section-title.html label="My work" %}

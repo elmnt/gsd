@@ -3,8 +3,8 @@ layout: default
 title: About me<span class="hilight">.</span>
 navlabel: About
 intro: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-exclude: true
-weight: 2
+exclude: false
+weight: 3
 ---
 
 {% include section-title.html label="Shizzle" %}
@@ -18,15 +18,3 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
   <img src="img/coffee.jpg" alt="Coffee">
   <figcaption class="plex f5 gray">You're addicted to coffee</figcaption>
 </figure>
-
-{% for team_member in site.team_members %}
-<ul class="plex lh-copy f5">
-  <li>Name: {{ team_member.name }}</li>
-  <li>Role: {{ team_member.role }}</li>
-  <li>Start date: {{ team_member.start }}</li>
-  <li>Role: {{ team_member.role }}</li>
-</ul>
-{% endfor %}
-
-{: .plex .lh-copy .f5}
-[Read a post](/2018/03/11/example-post/).
