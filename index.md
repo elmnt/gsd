@@ -7,9 +7,14 @@ exclude: true
 
 {% include section-title.html label="My work" %}
 
-<div class="flex">
-
-  <figure class="mr4" style="width:100%; min-width:200px; max-width:300px;">
+<div class="flex-column flex-ns">
+<!--
+-column flex-row-ns
+mr4-ns style="width:100%; max-width:300px;"
+class="w-100 w-25-ns"
+class="w-100 w-75-ns"
+-->
+  <figure>
     <img src="img/spark-600.png" title="Walmart" alt="Walmart logo">
     <figcaption class="gray">Walmart Design</figcaption>
   </figure>
@@ -26,14 +31,9 @@ exclude: true
 
 </div><!-- /flex -->
 
-<div>
-  {% include button-link.html label="Link" %}
-</div>
-<div>
-  {% include button.html label="Button" %}
-</div>
+{% include button.html label="Button" %}
 
 {% include section-title.html label="About me" %}
 
-{: .mt0 .lh-copy .f5 .f4-m .f4-l}
-Hi 👋🏼 I'm Greg Smith. I spent years as a hybrid designer/developer in a client services agency. I've spent the previous seven years in focused UX roles at large commerce companies, where passion for design systems has...
+{: .flex .mt0 .lh-copy .f5 .f4-m .f4-l}
+Hi 👋🏼 I'm Greg Smith. I spent more than a decade as a hybrid designer/developer in client services. I've spent the previous eight years in focused UX roles at large commerce companies, where passion for design systems has...

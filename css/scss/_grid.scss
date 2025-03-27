@@ -2,21 +2,24 @@
  * CSS Grid Settings
  */
 
-/* Tachyons breakpoint settings, for reference 
+/* 
+Tachyons breakpoint settings, for reference 
 $breakpoint-not-small: 'screen and (min-width: 768px)';
 $breakpoint-medium: 'screen and (min-width: 768px) and (max-width: 1280px)';
 $breakpoint-large: 'screen and (min-width: 1280px)';
+*/
 
 /**
  * New breakpoint variables
  */
- $bp0: 1440px;
- $bp1: 1280px;
- $bp2: 1024px;
- $bp3: 768px;
+$bp0: 1440px;
+$bp1: 1280px;
+$bp2: 1024px;
+$bp3: 800px;
 
 .wrapper {
 	padding: 0 1em;
+
 	@media only screen and (min-width: $bp3) {
 		padding: 0 4em;
 	}
@@ -66,8 +69,7 @@ $breakpoint-large: 'screen and (min-width: 1280px)';
 
 		// This works better. Just have to make sure every parent element
 		// that might show up in the content is accounted for
-		>
-		div,
+		>div,
 		p,
 		ul {
 			grid-column: 3;
@@ -75,20 +77,20 @@ $breakpoint-large: 'screen and (min-width: 1280px)';
 
 		// figures with the class .big will start at 1
 		// anb span to -1 (should be the same as using 6??)
-		> figure.big {  
-			grid-column: 1 / -1;  
+		>figure.big {
+			grid-column: 1 / -1;
 			margin: 1em 1em;
 		}
 
 		// figures will start at 2 and span to -2
 		// (should be the same is using 5??)
-		> figure {  
+		>figure {
 			grid-column: 2 / -2;
 			margin: 1em 1em;
 		}
 
 		// Expand the header (or other content) a bit more
-		> .expand {  
+		>.expand {
 			grid-column: 1 / -1;
 			margin: 1em 1em;
 		}
@@ -98,14 +100,17 @@ $breakpoint-large: 'screen and (min-width: 1280px)';
 
 .grid--showcase {
 	width: 100%;
+
 	a {
 		margin-bottom: 1em;
-		border: 4px solid rgba(99,99,99, 0.125);
+		border: 4px solid rgba(99, 99, 99, 0.125);
 	}
+
 	@media only screen and (min-width: $bp3) {
 		display: grid;
 		grid-gap: 1em;
 		grid-template-columns: 1fr 1fr;
+
 		a {
 			margin-bottom: 0;
 		}
