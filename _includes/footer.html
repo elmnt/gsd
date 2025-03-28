@@ -1,16 +1,14 @@
-</main>
+    </main>
 
-<footer role="contentinfo" class="grid--content">
-
-    <div class="mt3 mb5">
-        {% include section-title.html label="Colophon" %}
-        <p class="lh-solid f5">This site is built with <a href="https://jekyllrb.com">Jekyll</a> and <a href="https://github.com/tachyons-css/tachyons-sass">Tachyons</a></p>  
-        <p class="lh-solid f5">Typeset in <a href="https://fonts.google.com/specimen/Abril+Fatface">Abril Fatface</a> and <a href="https://fonts.google.com/specimen/IBM+Plex+Mono?query=IBM">IBM Plex Mono</a></p>
-        <p class="lh-solid f5">Copyright &copy; 2002 - {{ site.time | date: '%Y' }} Greg Smith</p>
-        <p class="lh-solid f5"><a href="https://www.linkedin.com/in/elmnt/">LinkedIn</a>&nbsp;/&nbsp;<a href="https://github.com/elmnt">GitHub</a></p>            
-    </div>
-
-</footer>
+    <footer role="contentinfo" class="grid--content">
+        <div class="mt3 mb5">
+            {% include section-title.html label="Colophon" %}
+            <p class="lh-solid f5">This site is built with <a href="https://jekyllrb.com">Jekyll</a> and <a href="https://github.com/tachyons-css/tachyons-sass">Tachyons</a></p>  
+            <p class="lh-solid f5">Typeset in <a href="https://fonts.google.com/specimen/Abril+Fatface">Abril Fatface</a> and <a href="https://fonts.google.com/specimen/IBM+Plex+Mono?query=IBM">IBM Plex Mono</a></p>
+            <p class="lh-solid f5">Copyright &copy; 2002 - {{ site.time | date: '%Y' }} Greg Smith</p>
+            <p class="lh-solid f5"><a href="https://www.linkedin.com/in/elmnt/">LinkedIn</a>&nbsp;/&nbsp;<a href="https://github.com/elmnt">GitHub</a></p>            
+        </div>
+    </footer>
 
 </div><!-- container -->
 </div><!-- wrapper -->
@@ -35,28 +33,25 @@
     }
 })();
 */
-
 function displayPageWidth() {
   const pageWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
   document.getElementById("width-display").textContent = pageWidth;
 }
-
 displayPageWidth(); // Display width on page load
 window.addEventListener('resize', displayPageWidth); // Update width on window resize
-
 </script>
 
 <style>
-    #width-display {
-        position: absolute;
-        z-index: 100;
-        top: 40px;
-        left: 40px;        
-        padding: 20px;
-        background-color: aqua;
-        border: 2px solid black;
-        color: black;
-    }
+#width-display {
+    position: absolute;
+    z-index: 100;
+    top: 40px;
+    left: 40px;        
+    padding: 20px;
+    background-color: aqua;
+    border: 2px solid black;
+    color: black;
+}
 </style>
 
 </body>
