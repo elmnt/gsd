@@ -15,6 +15,8 @@
 </div><!-- container -->
 </div><!-- wrapper -->
 
+<div id="width-display"></div>
+
 <script>
 /* use for articles:
 (function() {
@@ -33,7 +35,29 @@
     }
 })();
 */
+
+function displayPageWidth() {
+  const pageWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+  document.getElementById("width-display").textContent = pageWidth;
+}
+
+displayPageWidth(); // Display width on page load
+window.addEventListener('resize', displayPageWidth); // Update width on window resize
+
 </script>
+
+<style>
+    #width-display {
+        position: absolute;
+        z-index: 100;
+        top: 40px;
+        left: 40px;        
+        padding: 20px;
+        background-color: aqua;
+        border: 2px solid black;
+        color: black;
+    }
+</style>
 
 </body>
 </html>

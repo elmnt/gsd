@@ -60,7 +60,7 @@ $bp3: 800px;
 		grid-template-columns: 1fr 1fr minmax(200px, $bp3) 1fr 1fr;
 
 		// Gap between columns will be 1em
-		grid-gap: 1em;
+		grid-gap: 0;
 
 		// At this breakpoint, all content fills column 3
 		// THIS IS CAUSING A BUG WHERE EVEN INLINE BLOCK ELEMENTS
