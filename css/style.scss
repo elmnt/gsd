@@ -1,7 +1,7 @@
----
-sitemap: false
-exclude: true
----
+--- 
+sitemap: false 
+exclude: true 
+--- 
 
 @charset 'UTF-8';
 @use 'sass:math';
@@ -15,11 +15,11 @@ exclude: true
  * My custom partials
  */
 @import 
-  'scss/fonts',
-  'scss/links',
-  'scss/images',
-  'scss/grid',
-  'scss/custom'
+'scss/fonts',
+'scss/links',
+'scss/images',
+'scss/grid',
+'scss/custom'
 ;
 
 // Styles for Prism

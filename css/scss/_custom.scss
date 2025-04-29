@@ -2,14 +2,22 @@
  * Custom styles on top of Tachyons
  */
 
+p,
+ul,
+ol {
+    color: #222;
+}
+
 .divider {
     width: 80px;
     height: 10px;
     border-radius: 1000px;
 }
+
 .hilight {
     color: $dark-red;
 }
+
 .hilightbg {
     background-color: $dark-red;
 }
@@ -18,21 +26,21 @@
  * Add breakpoint setting for BG colors
  * ( In use now in the header links )
  */
-@media #{$breakpoint-not-small}{
-    .bg-transparent-ns { 
-        background-color: $transparent; 
+@media #{$breakpoint-not-small} {
+    .bg-transparent-ns {
+        background-color: $transparent;
     }
 }
 
-@media #{$breakpoint-medium}{
-    .black-m { 
-        color: $dark-gray; 
+@media #{$breakpoint-medium} {
+    .black-m {
+        color: $dark-gray;
     }
 }
 
-@media #{$breakpoint-large}{
-    .black-l { 
-        color: $dark-gray; 
+@media #{$breakpoint-large} {
+    .black-l {
+        color: $dark-gray;
     }
 }
 
