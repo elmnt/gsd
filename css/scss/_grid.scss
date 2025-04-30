@@ -79,20 +79,23 @@ $bp3: 800px;
 		// anb span to -1 (should be the same as using 6??)
 		>figure.big {
 			grid-column: 1 / -1;
-			margin: 1em 1em;
+			// margin: 1em 1em;
+			margin-top: 2rem;
 		}
 
 		// figures will start at 2 and span to -2
 		// (should be the same is using 5??)
 		>figure {
 			grid-column: 2 / -2;
-			margin: 1em 1em;
+			// margin: 1em 1em;
+			margin-top: 2rem;
 		}
 
 		// Expand the header (or other content) a bit more
 		>.expand {
 			grid-column: 1 / -1;
-			margin: 1em 1em;
+			// margin: 1em 1em;
+			margin-top: 2rem;
 		}
 	}
 

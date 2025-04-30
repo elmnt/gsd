@@ -4,5 +4,6 @@
   },
   "html.autoClosingTags": false,
   "javascript.autoClosingTags": false,
-  "typescript.autoClosingTags": false
+  "typescript.autoClosingTags": false,
+  "editor.fontSize": 16
 }
