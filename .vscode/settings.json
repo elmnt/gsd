@@ -1,7 +1,4 @@
 {
-	"markdownlint.config": {
-		"MD033": false
-	},
 	"html.autoClosingTags": false,
 	"javascript.autoClosingTags": false,
 	"typescript.autoClosingTags": false
