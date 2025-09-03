@@ -5,27 +5,25 @@ intro: I'm a UX designer with a focus on design systems. I'm currently leading d
 exclude: true
 ---
 
-{% include section-title.html label="My work" %}
-
 {%
 include thumb-copy-group.html
-image="spark-600.png"
-title="Walmart design"
+image="spark.svg"
+title="Walmart Design"
 alt="Walmart logo"
 caption="Walmart design"
 paragraph-one="Walmart's design system enables speed and consistency for design and engineering teams throughout our digital portfolio. Our customer facing products see hundreds of millions of visitors per month. Our business facing products drive Walmart's global supply chain, enable in-store associates, and allow our partner merchants to manage their retail businesses."
-readmore-link="/more"
+readmore-link="/"
 readmore-label="Read more"
 %}
 
 {%
 include thumb-copy-group.html
-image="spark-600.png"
-title="Walmart design"
-alt="Walmart logo"
-caption="Walmart design"
-paragraph-one="Walmart's design system enables speed and consistency for design and engineering teams throughout our digital portfolio. Our customer facing products see hundreds of millions of visitors per month. Our business facing products drive Walmart's global supply chain, enable in-store associates, and allow our partner merchants to manage their retail businesses."
-readmore-link="/more"
+image="nike.svg"
+title="Nike Technology"
+alt="Nike logo"
+caption="Nike Technology"
+paragraph-one="The Nike Technology division manages big data, and supports the engineering and systems that drive the company's operations and consumer experiences. While in this division, I worked on a suite of B2B web applications used by retail clients to purchase their quarterly inventory."
+readmore-link="/"
 readmore-label="Read more"
 %}
 
