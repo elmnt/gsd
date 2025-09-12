@@ -7,7 +7,7 @@ exclude: false
 weight: 1
 ---
 
-{% include figure-big.html image="coffee.jpg" caption="You're addicted to coffee" %}
+{% include figure.html image="coffee.jpg" caption="You're addicted to coffee" %}
 
 {% include section-title.html label="Shizzle" %}
 

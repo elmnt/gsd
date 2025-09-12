@@ -5,6 +5,10 @@ intro: I'm a UX designer with a focus on design systems. I'm currently leading d
 exclude: true
 ---
 
+{% include section-title.html label="About me" %}
+
+{% include copy-block.html copy="Hi 👋🏼 I'm Greg Smith. I spent more than a decade as a hybrid designer/developer in client services. I've spent the previous eight years in focused UX roles at large commerce companies, where passion for design systems has..." %}
+
 {%
 include thumb-copy-group.html
 image="spark.svg"
@@ -27,6 +31,8 @@ readmore-link="/"
 readmore-label="Read more"
 %}
 
+<!--
 {% include section-title.html label="About me" %}
 
 {% include copy-block.html copy="Hi 👋🏼 I'm Greg Smith. I spent more than a decade as a hybrid designer/developer in client services. I've spent the previous eight years in focused UX roles at large commerce companies, where passion for design systems has..." %}
+-->
