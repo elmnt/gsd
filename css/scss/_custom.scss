@@ -45,6 +45,21 @@ ol {
 }
 
 /**
+ * Work cards
+ * Common styles use Tachyons.
+ * These styles are not available in Tachyons.
+ */
+.work-card {
+    box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.1);
+    // transition: 0.3s; add this if using a hover treatment
+}
+// Need to add these color classes
+.work-card-pill {
+    background-color: #f0f5ff;
+    border-color: #74767c;
+}
+
+/**
  * Post styles
  */
 .unsighted {

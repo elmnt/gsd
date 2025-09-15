@@ -17,6 +17,11 @@ $bp1: 1280px;
 $bp2: 1024px;
 $bp3: 800px;
 
+/**
+ * Content minimum
+ */
+$content-min: 200px;
+
 .wrapper {
 	padding: 0 1em;
 
@@ -44,31 +49,31 @@ $bp3: 800px;
 		// At breakpoint $bp3 (800px) turn on display:grid;
 		display: grid;
 
-		// fr = fractional unit (one part of the available space)
-		// For instance: 1fr 1fr 1fr 1fr (four columns, each column is 1/4 of the available space)
-		// Set up grid columns 1fr 1fr [ content ] 1fr 1fr
-		// The [ content ] will be no less than 200px and no more than 800px
-		//
-		// Column numbers, L to R
-		// 1     2     3     4     5     6
-		// |-----|-----|-----|-----|-----|
-		//
-		// Column numbers, R to L
-		// -6   -5    -4    -3    -2    -1
-		// |-----|-----|-----|-----|-----|
-		//
-		grid-template-columns: 1fr 1fr minmax(200px, $bp3) 1fr 1fr;
+		/*
+		fr = fractional unit (one part of the available space)
+		For instance: 1fr 1fr 1fr 1fr (four columns, each column is 25%)
+		Set up grid columns 1fr 1fr [content] 1fr 1fr
+		The [content] will be no less than 200px and no more than 800px
+		
+		Column numbers, L to R
+		1     2     3     4     5     6
+		|-----|-----|-----|-----|-----|
+
+		Column numbers, R to L
+		-6   -5    -4    -3    -2    -1
+		|-----|-----|-----|-----|-----|
+		*/
+
+		grid-template-columns: 1fr 1fr minmax($content-min, $bp3) 1fr 1fr;
 
 		// Gap between columns
 		grid-gap: 0;
 
-		// At this breakpoint, all content fills column 3
-		// THIS IS CAUSING A BUG WHERE EVEN INLINE BLOCK ELEMENTS
-		// ARE STRETCHING THE FULL COLUMN WIDTH (for instance: <button>)
-		// > * {
-
-		// This works better. Just have to make sure every parent element
-		// that might show up in the content is accounted for
+		/*
+		At this breakpoint, all content fills column 3
+		Just have to make sure every parent element
+		that might show up in the content is accounted for
+		*/
 		>div,
 		p,
 		ul {
@@ -101,21 +106,32 @@ $bp3: 800px;
 
 }
 
-.grid--showcase {
+/**
+ * This is similar to the primary content grid,
+ * but forcing content into two columns
+ */
+.grid--work {
+
+	// mobile first
 	width: 100%;
 
-	a {
-		margin-bottom: 1em;
-		border: 4px solid rgba(99, 99, 99, 0.125);
-	}
-
 	@media only screen and (min-width: $bp3) {
+
+		// At breakpoint $bp3 (800px) turn on display:grid;
 		display: grid;
-		grid-gap: 1em;
+
+		// Two columns
 		grid-template-columns: 1fr 1fr;
 
-		a {
-			margin-bottom: 0;
+		// Gap between columns
+		grid-gap: 4rem;
+
+		// figures with the class .big will start at 1
+		// anb span to -1 (should be the same as using 6??)
+		>figure.big {
+			grid-column: 1 / -1;
+			// margin: 1em 1em;
+			margin-top: 2rem;
 		}
 	}
 }
