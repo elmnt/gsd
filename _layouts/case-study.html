@@ -1,10 +1,21 @@
 {% include header.html %}
 
 <section class="grid--content">
-	<div>{% include page-header.html %}</div>
+	<div>{% include case-study-header.html %}</div>
 </section>
 
-<section class="grid--work">
+<section class="flex">
+	<div class="w-50 mr4">
+		{% include work-pill.html company=page.masthead-pill %}
+		<h2 class="font-subhead f3-m f3-l dark-gray lh-copy">{{ page.masthead-intro }}</h2>
+		<p class="lh-copy f5 f4-m f4-l">{{ page.masthead-description }}</p>
+	</div>
+	<div class="w-50">
+		{% include figure.html image=page.masthead-image caption=page.masthead-caption %}
+	</div>
+</section>
+
+<section class="grid--content">
 	{{ content }}
 </section>
 
