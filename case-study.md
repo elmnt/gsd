@@ -7,18 +7,37 @@ masthead-description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
 masthead-image: placeholder.png
 masthead-caption: PX Pattern library
 masthead-alt: Image alt
+masthead-duration: Q1, FY24
 exclude: true
 ---
+
+{% include section-title-list.html label="Impact" %}
+
+- List item one Lorem ipsum dolor sit amet, consectetur.
+- List item one Lorem ipsum dolor sit amet, consectetur.
+- List item one Lorem ipsum dolor sit amet, consectetur.
+
+{% include figure-big.html image="coffee.jpg" caption="You're addicted to coffee" %}
 
 {% include section-title.html label="Summary" %}
 
 {% include copy-block.html copy="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." %}
 
-{% include figure-big.html image="coffee.jpg" caption="You're addicted to coffee" %}
+### Team 
 
-{% include section-title.html label="My role" %}
+- List item one Lorem ipsum dolor sit amet, consectetur.
+- List item one Lorem ipsum dolor sit amet, consectetur.
+- List item one Lorem ipsum dolor sit amet, consectetur.
 
-{% include copy-block.html copy="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." %}
+### My role 
+
+{% include copy-block-short.html copy="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." %}
+
+### My responsibilites 
+
+- List item one Lorem ipsum dolor sit amet, consectetur.
+- List item one Lorem ipsum dolor sit amet, consectetur.
+- List item one Lorem ipsum dolor sit amet, consectetur.
 
 {% include figure-big.html image="coffee.jpg" caption="You're addicted to coffee" %}
 
@@ -29,12 +48,6 @@ exclude: true
 {% include figure-big.html image="coffee.jpg" caption="You're addicted to coffee" %}
 
 {% include section-title.html label="Solutions" %}
-
-{% include copy-block.html copy="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." %}
-
-{% include figure-big.html image="coffee.jpg" caption="You're addicted to coffee" %}
-
-{% include section-title.html label="Impact" %}
 
 {% include copy-block.html copy="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." %}
 

@@ -75,8 +75,12 @@ $content-min: 200px;
 		that might show up in the content is accounted for
 		*/
 		>div,
+		h1,
+		h2,
+		h3,
 		p,
-		ul {
+		ul,
+		ol {
 			grid-column: 3;
 		}
 
