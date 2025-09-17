@@ -1,0 +1,35 @@
+{% if (page.previous.url and page.next.url) or page.previous.url %}
+<div class="flex-column-s flex-m flex-l justify-between-m justify-between-l">
+	{% if page.previous.url %}
+	<p class="lh-copy f5 f4-m f4-l mr4-ns">
+		<a href="{{page.previous.url}}" class="flex items-center no-underline">
+			<span class="unsighted">Previous post:</span>
+			<span aria-hidden="true" class="f3 mr2">&leftarrow;</span>
+			{{page.previous.title}}
+		</a>
+	</p>
+	{% endif %}
+
+	{% if page.next.url %}
+	<p class="lh-copy f5 f4-m f4-l tr ml4-ns">
+		<a href="{{page.next.url}}" class="flex items-center no-underline">
+			<span class="unsighted">Next post:&nbsp;</span>
+			{{page.next.title}}
+			<span aria-hidden="true" class="f3 ml2">&rightarrow;</span>
+		</a>
+	</p>
+	{% endif %}
+</div>
+{% else if page.next.url %}
+<div class="dib tr">
+	<p class="dib tr lh-copy f5 f4-m f4-l">
+		<a href="{{page.next.url}}" class="flex items-center no-underline">
+			<span class="unsighted">Next post:&nbsp;</span>
+			{{page.next.title}}
+			<span aria-hidden="true" class="f3 ml2">&rightarrow;</span>
+		</a>
+	</p>
+</div>
+{% else %}
+<p>null</p>
+{% endif %}

@@ -4,15 +4,15 @@
 	<div>{% include case-study-header.html %}</div>
 </section>
 
-<section class="flex">
-	<div class="w-50 mr4">
+<section class="flex flex-column flex-column-m flex-row-l">
+	<div class="w-100 w-100-m w-50-l mr0 mr0-m mr4-l">
 		{% include work-pill.html company=page.masthead-pill %}
 		<h2 class="font-subhead f3-m f3-l dark-gray lh-copy">{{ page.masthead-intro }}</h2>
 		<p class="lh-copy f5 f4-m f4-l">{{ page.masthead-description }}</p>
 		<h3 class="mb1">Duration</h3>
 		<p class="mt0">{{ page.masthead-duration }}</p>
 	</div>
-	<div class="w-50">
+	<div class="w-100 w-100-m w-50-l">
 		{% include figure.html image=page.masthead-image caption=page.masthead-caption %}
 	</div>
 </section>
@@ -20,5 +20,11 @@
 <section class="grid--content">
 	{{ content }}
 </section>
+
+<!--
+<section class="grid--content mt2">
+	{% include post-nav.html %}
+</section>
+-->
 
 {% include footer.html %}

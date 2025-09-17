@@ -1,13 +1,21 @@
-<div class="flex flex-column h-100 mt4 mt0-m mt0-l br3 bg-white overflow-hidden work-card"> 
+<div class="flex flex-column h-100 mt4 mt0-m mt0-l br3 bg-white overflow-hidden work-card">
+	{% if include.readmore-link %}
 	<a href="{{include.readmore-link}}">
 		<img class="ma0 w-100" src="img/{{include.image}}" alt="{{include.alt}}">
 	</a>
+	{% else %}
+	<img class="ma0 w-100" src="img/{{include.image}}" alt="{{include.alt}}">
+	{% endif %}
 	<div class="ma0 pa4">
 		{% include work-pill.html company=include.company %}
 		<h2 class="f4">{{include.title}}</h2>
 		<p class="lh-copy f5">{{include.description}}</p>
+		{% if include.readmore-link %}
 		<p class="mb0 lh-solid f5">
 			<a href="{{include.readmore-link}}">View project</a>
 		</p>
+		{% else %}
+		<p class="mb0 lh-solid f6 light-silver">Case study coming soon.</p>
+		{% endif %}
 	</div>
 </div>
