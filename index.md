@@ -1,13 +1,13 @@
 ---
 layout: default
 title: Hello<span class="hilight">.</span>
-intro: I'm a UX designer with a focus on design systems. I'm currently leading design system initiatives that scale across multiple B2C and B2B products.
+intro: Hi 👋🏼 I'm Greg Smith. I'm a UX designer and design system leader with a background in front-end engineering. I embrace complexity and strive for simplicity.
 exclude: true
 ---
 
 {% include section-title.html label="Recent work" %}
 
-{% include copy-block.html copy="Hi 👋🏼 I'm Greg Smith. I spent more than a decade as a hybrid designer/developer in client services. I've spent the previous eight years in focused UX roles at large commerce companies, where passion for design systems has..." %}
+{% include copy-block.html copy="I spent more than a decade as a hybrid designer/developer in client services. I've spent the previous eight years in focused UX roles at large commerce companies, where I've been lucky enough to nurture my passion for design systems. I'm a player-coach, and I enjoy the challenge of system-product collaboration." %}
 
 {%
 include thumb-copy-group.html
@@ -15,7 +15,7 @@ image="spark.svg"
 title="Walmart Design"
 alt="Walmart logo"
 caption="Walmart design"
-paragraph-one="Walmart's design system enables speed and consistency for design and engineering teams throughout our digital portfolio. Our customer facing products see hundreds of millions of visitors per month. Our business facing products drive Walmart's global supply chain, enable in-store associates, and allow our partner merchants to manage their retail businesses."
+paragraph-one="Walmart's design system enables speed and consistency for design and engineering teams throughout their digital portfolio. Their customer-facing products see hundreds of millions of visitors per month. Their business-facing products drive Walmart's global supply chain, enable in-store associates, and allow enterprise partners to manage their retail businesses. I was part of the zero-to-one effort that brought their design system to life, and I helped it scale through multiple iterations."
 readmore-link="/work"
 readmore-label="Read more"
 %}
@@ -26,7 +26,7 @@ image="nike.svg"
 title="Nike Technology"
 alt="Nike logo"
 caption="Nike Technology"
-paragraph-one="The Nike Technology division manages big data, and supports the engineering and systems that drive the company's operations and consumer experiences. While in this division, I worked on a suite of B2B web applications used by retail clients to purchase their quarterly inventory."
+paragraph-one="The Nike Technology division manages big data, and supports the engineering and systems that drive the company's operations and consumer experiences. While in this division, I worked on a suite of B2B web applications used by retail clients to purchase their product assortments."
 readmore-link="/work"
 readmore-label="Read more"
 %}

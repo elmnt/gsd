@@ -14,7 +14,7 @@ exclude: true
 {% include section-title-list.html label="Impact" %}
 
 - Themeable pattern library that extended our core system, using design tokens.
-- Created 204 molecules, 31 organisms, 22 templates, to address needs specific to Walmart's enterprise business pillar.
+- Created molecules, organisms, and templates to address needs specific to Walmart's enterprise business pillar.
 - Shipped the library and set up a governance model to support ~60 designers, ~200 web engineering partners, and replace multiple single, independently managed product libraries.
 
 {% include figure-big.html image="case-studies/pattern-libraries-7.png" caption="PX Pattern Library deliverables" %}
@@ -26,8 +26,8 @@ exclude: true
 - Product team
 	- 1 senior director, 1 product design director, 1 product design lead, 2 product designers
 - Specialized contributors
-	- 1 design system lead, 1 accessibility lead
-- Partners
+	- 1 design system lead (me!), 1 accessibility lead
+- Engineering partners
 	- Flexible group of dedicated React engineers
 
 {% include case-study-h3-list.html label="My roles & responsibilities" %}

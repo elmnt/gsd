@@ -51,7 +51,7 @@ Figma provides extensive information in their [Plugin Quickstart Guide](link htt
 
 {% include figure.html image="case-studies/figma-plugin-cursor-app.png" caption="Cursor App" %}
 
-{% include copy-block.html copy="My first impression of Cursor was that it's a clone of VS Code, which I use regularly, with an engineering partner built in. 🤓" %}
+{% include copy-block.html copy="My first impression of Cursor was that it's a clone of VS Code with a built-in engineering partner. 🤓" %}
 
 {% include section-title.html label="Solutions" %}
 
@@ -82,9 +82,9 @@ Figma provides extensive information in their [Plugin Quickstart Guide](link htt
 {% include copy-block.html copy="I handed off this project when I left Walmart, as a result of their relocation mandate. There are a couple small but crucial details left to be completed:" %}
 
 - The [PX] SideNav-MySideNav component has two variants: Expanded and Collapsed. The Collapsed variant needs to be output in the proper state to align with the existing library components.
-- While the icons are very easy to update. The leading icons are each a nested sub-component, containing a limited set of icon options, so the pattern library has a bit more control over which icons can be used. The user can click each one, and select their variant. It would be nice if the plugin modal UI had a Select, allowing the user to choose the appropriate icon for each parent link.
+- While the icons are very easy to change manually, it would be nice to include an additional form in the plugin UI, allowing the user to choose each leading icon variant.
 - I have a small bug where the child links are not properly set to the active state in their variants. The debugging process with Cursor has been pretty easy, so it's a small issue to fix.
 
 {% include section-title.html label="Learnings" %}
 
-{% include copy-block.html copy="Overall, I'm pretty amazed at how easy it is to build a complex Figma plugin, using Cursor's conversational UI. I think it's definitely still a requirement that someone building a Figma plugin with Cursor have a comfortable level of knowledge of JavaScript, in order to write effective prompts. But it allowed me to complete this task without involving an engineering partner. I would want a qualified engineer to review the code before shipping, but the ability to do this without taking up the design system's engineering resources was highly rewarding!" %}
+{% include copy-block.html copy="Overall, I'm pretty amazed at how easy it is to build a complex Figma plugin, using Cursor's conversational UI. I think it's definitely still a requirement that someone building a Figma plugin with Cursor have a comfortable level of knowledge of JavaScript, in order to write effective prompts. But it allowed me to complete this task without involving an engineering partner. I would want a qualified engineer to help with some debugging, and to review the code before shipping, but the ability to do this without taking up the design system's engineering resources was highly rewarding!" %}

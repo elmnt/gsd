@@ -2,7 +2,7 @@
 layout: work
 title: My work<span class="hilight">.</span>
 navlabel: Work
-intro: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+intro: My case studies are focused on the design system work I've done at Walmart, over the past five years. Design systems are my happy place, and I'd be happy to spend way too much time talking systems with you! 🤓
 exclude: false
 weight: 1
 ---
