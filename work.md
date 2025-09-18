@@ -44,6 +44,7 @@ alt="Image alt"
 company="Walmart"
 title="Design system governance"
 description="Creating documented standards for design system contribution, governance and iteration."
+readmore-link="/case-studies/governance"
 %}
 
 {%

@@ -26,7 +26,7 @@ exclude: true
 - Product team
 	- 1 senior director, 1 product design director, 1 product design lead, 2 product designers
 - Specialized contributors
-	- 1 design system lead, 1 accessibility specialist
+	- 1 design system lead, 1 accessibility lead
 - Partners
 	- Flexible group of dedicated React engineers
 
@@ -42,15 +42,15 @@ exclude: true
 
 {% include case-study-h3.html label="Quality" %} 
 
-{% include copy-block-short.html copy="How do we raise design craft and create consumer-grade design at scale while removing duplicative production?" %}
+{% include copy-block.html copy="How do we raise design craft and create consumer-grade design at scale while removing duplicative production?" %}
 
 {% include case-study-h3.html label="Consistency" %} 
 
-{% include copy-block-short.html copy="How do we make sure the user experience is consistent across every area, screen, and platform for our users?" %}
+{% include copy-block.html copy="How do we make sure the user experience is consistent across every area, screen, and platform for our users?" %}
 
 {% include case-study-h3.html label="Cadence" %} 
 
-{% include copy-block-short.html copy="How do we increase the volume of design deliveries to our engineering partners and create space to experiment more?" %}
+{% include copy-block.html copy="How do we increase the volume of design deliveries to our engineering partners and create space to experiment more?" %}
 
 {% include figure-big.html image="case-studies/pattern-libraries-visual-inconsistencies.png" caption="Visual inconsistencies throughout the business pillar" %}
 
@@ -70,7 +70,19 @@ exclude: true
 
 {% include figure-big.html image="case-studies/pattern-libraries-6.png" caption="Deliver full page templates to drive consistency" %}
 
+<!--
 {% include figure-big.html image="case-studies/pattern-libraries-8.png" caption="Next steps" %}
+-->
+
+{% include section-title.html label="Deliverables" %}
+
+{% include copy-block.html copy="Our deliverables fall into three categories: components (the molecules), patterns (the organisms), and page templates." %}
+
+{% include figure-big.html image="case-studies/pattern-libraries-deliverables.png" caption="Molecules, organisms, and templates" %}
+
+{% include copy-block.html copy="In our onboarding, education, and support interactions with product designers, we encouraged page-template-first use of the library. Some of our page templates have placeholders. Designers can use a common key-combo in Figma (Option-CMD & Drag) to drag patterns (organism components) from the Assets panel in Figma directly into the templates." %}
+
+{% include figure-big.html image="case-studies/pattern-libraries-templates.png" caption="Page template options" %}
 
 {% include section-title.html label="Learnings" %}
 

@@ -2,16 +2,8 @@
 {% assign pages = site.pages | sort: 'weight' %}
 	{% for p in pages %}
 		{% unless p.exclude %}
-		<a
-			class="dib mr2 mr0-m mr0-l ml0 ml4-m ml4-l pv2 ph3 pa2-m pa2-l font-subhead f5 f4-m f4-l fw7 bn br3 bg-black bg-transparent-ns dim white black-m black-l link"
-			href="{{ p.url }}"
-			>{{ p.navlabel }}</a
-		>
+		<a class="dib mr2 mr0-m mr0-l ml0 ml4-m ml4-l pv2 ph3 pa2-m pa2-l font-subhead f5 f4-m f4-l fw7 bn br3 bg-black bg-transparent-ns dim white black-m black-l link" href="{{ p.url }}">{{ p.navlabel }}</a>
 		{% endunless %}
 	{% endfor %}
-	<a
-		class="dib mr2 mr0-m mr0-l ml0 ml4-m ml4-l pv2 ph3 pa2-m pa2-l font-subhead f5 f4-m f4-l fw7 bn br3 bg-black bg-transparent-ns dim white black-m black-l link"
-		href="/"
-		>Resume</a
-	>
+	<a class="dib mr2 mr0-m mr0-l ml0 ml4-m ml4-l pv2 ph3 pa2-m pa2-l font-subhead f5 f4-m f4-l fw7 bn br3 bg-black bg-transparent-ns dim white black-m black-l link" href="https://drive.google.com/file/d/1A6DeoM--sPLspJwGuQzpBw9H7370CP-k/view?usp=sharing" target="_blank">Resume</a>
 </nav>
