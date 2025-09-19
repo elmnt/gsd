@@ -28,8 +28,12 @@ url: "https://gregsmith.design"
 # run purgecss
 # purgecss --css "_site/css/style.css" --content "_site/**/*.html"
 
+# Adding 'quiet_deps: true' (and an alternate option)
+# to silence import warnings when compiling the site locally
 sass:
     sass_dir: css
+    quiet_deps: true
+    quietDeps: true
 
 # Default CSS path: /css/style.css
 # css: inline
