@@ -21,5 +21,8 @@
   "homepage": "https://github.com/leonp/jekyll-tachyons#readme",
   "dependencies": {
     "tachyons-sass": "^4.9.5"
+  },
+  "devDependencies": {
+    "purgecss": "^7.0.2"
   }
 }
