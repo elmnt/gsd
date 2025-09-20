@@ -1,13 +1,13 @@
 <header>
     <div class="mb5">
         {% if page.id %}
-        <h1 class="font-head f1 lh-title black mb3 mb4-m mb4-l">{{ page.title }}</h1>
+        <h1 class="font-head f1 lh-title black">{{ page.title }}</h1>
         <p class="font-body f5 gray"><time>{{ page.date | date: "%b %-d,  %Y" }}</time></p>
         {% else %}
-        <h1 class="font-head f1 f-subheadline-m f-headline-l lh-title dark-gray mb3 mb4-m mb4-l">{{ page.title }}</h1>
+        <h1 class="font-head f1 f-subheadline-m f-headline-l lh-title dark-gray">{{ page.title }}</h1>
         {% endif %}
     </div>
     {% if page.intro %}
-    <h2 class="font-subhead f4 f3-m f3-l dark-gray lh-copy mb3 mb5-m mb5-l">{{ page.intro }}</h2>
+    <h2 class="font-subhead f4 f3-m f3-l dark-gray lh-copy">{{ page.intro }}</h2>
     {% endif %}
 </header>

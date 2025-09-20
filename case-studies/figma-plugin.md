@@ -15,7 +15,7 @@ exclude: true
 
 {% include copy-block.html copy="As we moved into FY26, Walmart's business leadership was encouraging design and tech teams to embrace AI tools, and find ways to use them to improve our workflows. A quarterly design summit was dedicated to the topic of new AI tools. Design leadership had given the design system team a directive to find ways to automate complex aspects of our systems, to improve user experience." %}
 
-{% include case-study-h3-list.html label="My role & responsibilites" %}
+{% include case-study-h3.html label="My role & responsibilites" %}
 
 {% include copy-block.html copy="Looking for an interesting way to leverage my previous front-end development experience, I decided that exploring Figma plugins would be an exciting way to approach the automated construction of complex components." %}
 
@@ -44,7 +44,7 @@ exclude: true
 
 {% include section-title.html label="Solutions" %}
 
-{% include case-study-h3-list.html label="Step 1: The plugin development environment" %}
+{% include case-study-h3.html label="Step 1: The plugin development environment" %}
 
 Figma provides extensive information in their [Plugin Quickstart Guide](link https://www.figma.com/plugin-docs/plugin-quickstart-guide/). I have enough experience with HTML/CSS, Node, JavaScript & TypeScript to spin up the skeleton of a basic plugin.
 {: .mt4 .lh-copy .f5 .f4-m .f4-l }
@@ -55,7 +55,7 @@ Figma provides extensive information in their [Plugin Quickstart Guide](link htt
 
 {% include section-title.html label="Solutions" %}
 
-{% include case-study-h3-list.html label="Step 2: The plugin modal UI" %}
+{% include case-study-h3.html label="Step 2: The plugin modal UI" %}
 
 {% include copy-block.html copy="With some basic coding experience, getting the plugin modal UI set up is fairly easy. The HTML & CSS for this UI is very basic. I was able to add the necessary JavaScript to manipulate the DOM based on user input." %}
 

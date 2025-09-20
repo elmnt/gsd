@@ -11,7 +11,7 @@ masthead-duration: Ongoing
 exclude: true
 ---
 
-{% include section-title-list.html label="Impact" %}
+{% include section-title.html label="Impact" %}
 
 - List item one Lorem ipsum dolor sit amet, consectetur.
 - List item one Lorem ipsum dolor sit amet, consectetur.

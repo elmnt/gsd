@@ -38,3 +38,33 @@ $font-body: 'Open Sans', sans-serif, system-ui;
   font-family: $font-body;
   font-weight: 400;
 }
+
+/**
+ * Remove margin top from any p or list following a header
+ */
+h1 + p,
+h2 + p,
+h3 + p,
+h4 + p,
+h5 + p,
+h6 + p {
+  margin-top: 0;
+}
+
+h1 + ul,
+h2 + ul,
+h3 + ul,
+h4 + ul,
+h5 + ul,
+h6 + ul {
+  margin-top: 0;
+}
+
+h1 + ol,
+h2 + ol,
+h3 + ol,
+h4 + ol,
+h5 + ol,
+h6 + ol {
+  margin-top: 0;
+}

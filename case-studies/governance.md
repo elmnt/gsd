@@ -31,7 +31,7 @@ exclude: true
 
 {% include section-title.html label="Learnings" %}
 
-{% include case-study-h3-list.html label="Iteration 1: Intricate roadmap" %}
+{% include case-study-h3.html label="Iteration 1: Intricate roadmap" %}
 
 {% include copy-block.html copy="This represents early efforts to define every step in the component/pattern process. The idea was that, if all steps could be accounted for, we minimize the chance of shipping artifacts that fail to meet user needs. The intricacy proved to be challenging in the course of a busy, demanding team sprint. It's important to find a balance between progress and process. Too much process can hinder progress." %}
 
@@ -43,7 +43,7 @@ exclude: true
 
 {% include section-title.html label="Learnings" %}
 
-{% include case-study-h3-list.html label="Iteration 2: Simplified approach" %}
+{% include case-study-h3.html label="Iteration 2: Simplified approach" %}
 
 {% include copy-block.html copy="As a design system (and its team) gains maturity, it's easier to embrace the progress-over-process ideal. Individual team members have a more concrete understanding of expectations. It's important that we hit key milestones in our process, but it's more important that we do so with realistic velocity." %}
 
@@ -58,7 +58,7 @@ Users will commonly ask why a design system task can't be completed on a timelin
 
 {% include section-title.html label="Learnings" %}
 
-{% include case-study-h3-list.html label="Iteration 3: Modify for scale" %}
+{% include case-study-h3.html label="Iteration 3: Modify for scale" %}
 
 {% include figure-big.html image="case-studies/governance-3.png" caption="Modify for scale" %}
 

@@ -11,7 +11,7 @@ masthead-duration: Jan 2024 - May 2025
 exclude: true
 ---
 
-{% include section-title-list.html label="Impact" %}
+{% include section-title.html label="Impact" %}
 
 - Themeable pattern library that extended our core system, using design tokens.
 - Created molecules, organisms, and templates to address needs specific to Walmart's enterprise business pillar.
@@ -19,9 +19,9 @@ exclude: true
 
 {% include figure-big.html image="case-studies/pattern-libraries-7.png" caption="PX Pattern Library deliverables" %}
 
-{% include section-title-list.html label="Summary" %}
+{% include section-title.html label="Summary" %}
 
-{% include case-study-h3-list.html label="Team" %}
+{% include case-study-h3.html label="Team" %}
 
 - Product team
 	- 1 senior director, 1 product design director, 1 product design lead, 2 product designers
@@ -30,7 +30,7 @@ exclude: true
 - Engineering partners
 	- Flexible group of dedicated React engineers
 
-{% include case-study-h3-list.html label="My roles & responsibilities" %}
+{% include case-study-h3.html label="My roles & responsibilities" %}
 
 - Library structure and maintenance (organization, branching, iteration, delivery, etc.)
 - Component construction, Figma best practices, naming conventions
@@ -38,7 +38,7 @@ exclude: true
 - Advocating for the best combination of system rules and designer experience
 - Engineering specs and engineering collaboration
 
-{% include section-title-list.html label="Challenge" %}  
+{% include section-title.html label="Challenge" %}  
 
 {% include case-study-h3.html label="Quality" %} 
 
@@ -88,13 +88,13 @@ exclude: true
 
 {% include copy-block.html copy="We want to transplant this same process and structure into our two remaining business pillars. What went well, and what did we learn? Below are just a few highlighted points from our extensive retro." %}
 
-{% include case-study-h3-list.html label="What went well?" %}
+{% include case-study-h3.html label="What went well?" %}
 
 - Delivering complex components that multiple teams were maintaining independently, and in a way that did not adhere to design system best practices.
 - Cross-team collaboration is good for culture. We need to deeply understand the different problems that product and systems teams are solving, in order to find those middle grounds.
 - More and faster success with the governance models built and tested over time by the design system team.
 
-{% include case-study-h3-list.html label="Focus for improvement" %}
+{% include case-study-h3.html label="Focus for improvement" %}
 
 - Initial requirements contained a lot of undefined assumptions. Product teams and system teams see things differently. We should spend more time establishing preliminary hand-shake agreements.
 - Product designers have very biased opinions about component structure, library structure, and governance. The design system team should have been given more "final gavel" authority over the nuts-and-bolts of library structure and delivery.
