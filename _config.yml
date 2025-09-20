@@ -10,30 +10,25 @@ baseurl: "/"
 url: "https://gregsmith.design"
 # | prepend: site.baseurl
 
-# DATA
-# team_members:
-#   -
-#     name: "Sarah Becker"
-#     role: "project lead"
-#     start: "2016-02-01"
-#   -
-#     name: "Jane Smith"
-#     role: "maintainer"
-#     start: "2018-03-15"
-#   -
-#     name: "Albert Hamilton"
-#     role: "editor"
-#     start: "2017-12-01"
-
-# run purgecss
-# purgecss --css "_site/css/style.css" --content "_site/**/*.html"
-
 # Adding 'quiet_deps: true' (and an alternate option)
 # to silence import warnings when compiling the site locally
+# sass:
+#     sass_dir: css
+#     style: compressed
+#     quiet_deps: true
+#     quietDeps: true
+
 sass:
-    sass_dir: css
-    quiet_deps: true
-    quietDeps: true
+  sass_dir: css
+  style: compressed
+  quiet_deps: true
+  verbose: false
+  sourcemap: never
+
+markdown: kramdown
+
+kramdown:
+  auto_ids: false
 
 # Default CSS path: /css/style.css
 # css: inline
@@ -41,16 +36,8 @@ sass:
 # When prepping for production:
 # 1. bundle exec jekyll build
 # 2. purgecss --css _site/css/style.css --content _site/**/*.html --output _site/css/style.css
+# NEW: purgecss --css _site/css/style.css --content "**/*.html" "**/*.md" --output _site/css/style.css
 # 4. Commit, push, deploy
-
-# Build settings
-markdown: kramdown
-
-kramdown:
-  auto_ids: false
-
-sass:
-  style: compressed
 
 # Defaults
 # Enable is_homepost test for posts
