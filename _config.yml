@@ -10,13 +10,8 @@ baseurl: "/"
 url: "https://gregsmith.design"
 # | prepend: site.baseurl
 
-# Adding 'quiet_deps: true' (and an alternate option)
-# to silence import warnings when compiling the site locally
-# sass:
-#     sass_dir: css
-#     style: compressed
-#     quiet_deps: true
-#     quietDeps: true
+# Adding 'quiet_deps: true' to silence 
+# import warnings when compiling the site locally
 
 sass:
   sass_dir: css
