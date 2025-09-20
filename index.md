@@ -8,6 +8,7 @@ exclude: true
 {% include section-title.html label="Recent work" %}
 
 {% include copy-block.html copy="I spent more than a decade as a hybrid designer/developer in client services. I've spent the previous eight years in focused UX roles at large commerce companies, where I've been lucky enough to nurture my passion for design systems. I'm a player-coach, and I enjoy the challenge of system-product collaboration." %}
+{: .test-red }
 
 {%
 include thumb-copy-group.html
