@@ -8,6 +8,7 @@ weight: 2
 ---
 
 {% include copy-block.html copy="I have a long history building digital products and tools. I started out as a unicorn designer/developer, and, over the years, have embraced the UX discipline. When design systems arose to drive more structure and consistency in digital products, I was immediately hooked. " %}
+{: .mt5 }
 
 {% include copy-block.html copy="I consider my time on the Walmart design team my masters degree in design systems. The chance to work on systems at massive scale was both challenging and exciting. I love working with smart, talented people, and I thrive on positive, optimistic collaboration. I lead with empathy, and by example." %} 
 

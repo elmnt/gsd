@@ -17,7 +17,7 @@ alt="Walmart logo"
 caption="Walmart design"
 paragraph-one="Walmart's design system enables speed and consistency for design and engineering teams throughout their digital portfolio. Their customer-facing products see hundreds of millions of visitors per month. Their business-facing products drive Walmart's global supply chain, enable in-store associates, and allow enterprise partners to manage their retail businesses. I was part of the zero-to-one effort that brought their design system to life, and I helped it scale through multiple iterations."
 readmore-link="/work"
-readmore-label="Read more"
+readmore-label="View case studies"
 %}
 
 {%
@@ -27,6 +27,4 @@ title="Nike Technology"
 alt="Nike logo"
 caption="Nike Technology"
 paragraph-one="The Nike Technology division manages big data, and supports the engineering and systems that drive the company's operations and consumer experiences. While in this division, I worked on a suite of B2B web applications used by retail clients to purchase their product assortments."
-readmore-link="/work"
-readmore-label="Read more"
 %}
