@@ -13,7 +13,7 @@ exclude: true
 
 {% include section-title.html label="Impact" %}
 
-- Themeable pattern library that extended our core system, using design tokens.
+- Delivered a themeable pattern library that extends Walmart's core design system, using design tokens.
 - Created molecules, organisms, and templates to address needs specific to Walmart's enterprise business pillar.
 - Shipped the library and set up a governance model to support ~60 designers, ~200 web engineering partners, and replace multiple single, independently managed product libraries.
 
