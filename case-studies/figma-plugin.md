@@ -79,8 +79,6 @@ Figma provides extensive information in their [Plugin Quickstart Guide](link htt
 
 {% include section-title.html label="Next steps" %}
 
-{% include copy-block.html copy="I handed off this project when I left Walmart, as a result of their relocation mandate. There are a couple small but crucial details left to be completed:" %}
-
 - While the icons are easy to change manually, it would be helpful to include an additional form element (a Select, for example) in the plugin UI, allowing the user to choose each leading icon variant.
 - It could eliminate confusion if designers filled in another form element with the name of their app or team, and the component would be named accordingly when it's generated. They can do this manually, but adding in the automation would be an extra bonus.
 - A video tutorial would be helpful for designers using this plugin for the first time. As always, education and outreach goes a long way, when delivering new design system tools. 
