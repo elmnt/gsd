@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Hello<span class="hilight">.</span>
-intro: Hi 👋🏼 I'm Greg Smith. I'm a UX designer and design system leader with a background in front-end engineering. I embrace complexity and strive for simplicity.
+intro: Hi 👋🏼 I'm Greg Smith. I'm a UX designer and design system leader with a background in front-end engineering. I embrace complexity and strive for simplicity. I bridge design, engineering and accessibility to push system iterations that solve business challenges and improve productivity.
 exclude: true
 ---
 

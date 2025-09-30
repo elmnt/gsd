@@ -7,7 +7,7 @@ masthead-description: Building pattern libraries that rely on Living Design foun
 masthead-image: work-landing-01.png
 masthead-caption: PX Pattern library
 masthead-alt: Living Design system structure
-masthead-duration: Jan 2024 - May 2025 
+masthead-duration: Fall 2023 - Spring 2025 
 exclude: true
 ---
 
