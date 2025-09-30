@@ -17,7 +17,7 @@ exclude: true
 - Created molecules, organisms, and templates to address needs specific to Walmart's enterprise business pillar.
 - Shipped the library and set up a governance model to support ~60 designers, ~200 web engineering partners, and replace multiple single, independently managed product libraries.
 
-{% include figure-big.html image="case-studies/pattern-libraries-7.png" caption="PX Pattern Library deliverables" %}
+{% include figure-big.html image="case-studies/pattern-libraries-2.png" alt="PX Pattern Library impact" %}
 
 {% include section-title.html label="Summary" %}
 
@@ -38,51 +38,59 @@ exclude: true
 - Advocating for the best combination of system rules and designer experience
 - Engineering specs and engineering collaboration
 
-{% include section-title.html label="Challenge" %}  
+{% include section-title.html label="The story" %}
 
-{% include case-study-h3.html label="Quality" %} 
+{% include figure-big.html image="case-studies/pattern-libraries-4.png" alt="PX Pattern Library Opportunity" %}
 
-{% include copy-block.html copy="How do we raise design craft and create consumer-grade design at scale while removing duplicative production?" %}
+{% include copy-block.html copy="Help our primary business pillars move faster, reduce duplication & re-work, and fix inconsistent experiences. Re-work and duplication = design & tech debt ( $$$ )" %}
 
-{% include case-study-h3.html label="Consistency" %} 
+{% include figure-big.html image="case-studies/pattern-libraries-5.png" alt="PX Pattern Library Objective" %}
 
-{% include copy-block.html copy="How do we make sure the user experience is consistent across every area, screen, and platform for our users?" %}
+{% include copy-block.html copy="Raise the level of quality, more brand consistency, and increase the volume of deliverables." %}
 
-{% include case-study-h3.html label="Cadence" %} 
+{% include figure-big.html image="case-studies/pattern-libraries-6.png" alt="PX Pattern Library Objective" %}
 
-{% include copy-block.html copy="How do we increase the volume of design deliveries to our engineering partners and create space to experiment more?" %}
+{% include copy-block.html copy="Define the scope of the project." %}
 
-{% include figure-big.html image="case-studies/pattern-libraries-visual-inconsistencies.png" caption="Visual inconsistencies throughout the business pillar" %}
+{% include figure-big.html image="case-studies/pattern-libraries-7.png" alt="PX Pattern Library Objective" %}
 
-{% include section-title.html label="Solutions" %}
+{% include copy-block.html copy="Approach complexity with caution." %}
 
-{% include copy-block.html copy="The key to success is serving the more complex needs of our product designers and engineers in a way that conforms to the established processes of the existing design system." %}
+{% include figure-big.html image="case-studies/pattern-libraries-8.png" alt="PX Pattern Library team structure" %}
 
-{% include figure-big.html image="case-studies/pattern-libraries-1.png" caption="Extend the core system" %}
+{% include copy-block.html copy="I served as the design system SME for the life of this project." %}
 
-{% include figure-big.html image="case-studies/pattern-libraries-2.png" caption="Focus on the business pillar, with the long view in mind" %}
+{% include figure-big.html image="case-studies/pattern-libraries-9.png" alt="PX Pattern Library team structure" %}
 
-{% include figure-big.html image="case-studies/pattern-libraries-3.png" caption="Using the Atomic Design model to define structure" %}
+{% include copy-block.html copy="Find common patterns, unify best-in-class solutions." %}
 
-{% include figure-big.html image="case-studies/pattern-libraries-4.png" caption="Approach complexity with caution" %}
+{% include figure-big.html image="case-studies/pattern-libraries-visual-inconsistencies.png" alt="PX Pattern Library examples of visual inconsistencies" %}
 
-{% include figure-big.html image="case-studies/pattern-libraries-5.png" caption="Use what is already working" %}
+{% include copy-block.html copy="Examples of visual inconsistencies." %}
 
-{% include figure-big.html image="case-studies/pattern-libraries-6.png" caption="Deliver full page templates to drive consistency" %}
+{% include figure-big.html image="case-studies/pattern-libraries-10.png" alt="PX Pattern Library approach" %}
 
-<!--
-{% include figure-big.html image="case-studies/pattern-libraries-8.png" caption="Next steps" %}
--->
+{% include copy-block.html copy="Apply the systems and process that have proven to be successful on the Living Design team." %}
 
-{% include section-title.html label="Deliverables" %}
+{% include figure-big.html image="case-studies/pattern-libraries-11.png" alt="PX Pattern Library Ambassadors" %}
 
-{% include copy-block.html copy="Our deliverables fall into three categories: components (the molecules), patterns (the organisms), and page templates." %}
+{% include copy-block.html copy="Enlist the help of designer Ambassadors to advocate for system best practices, and to help other designers in their space use complex components." %}
 
-{% include figure-big.html image="case-studies/pattern-libraries-deliverables.png" caption="Molecules, organisms, and templates" %}
+{% include figure-big.html image="case-studies/pattern-libraries-12.png" alt="PX Pattern Library templates" %}
 
-{% include copy-block.html copy="In our onboarding, education, and support interactions with product designers, we encouraged page-template-first use of the library. Some of our page templates have placeholders. Designers can use a common key-combo in Figma (Option-CMD & Drag) to drag patterns (organism components) from the Assets panel in Figma directly into the templates." %}
+{% include copy-block.html copy="Deliver complex templates to save designers a significant amount of time when creating new flows." %}
 
-{% include figure-big.html image="case-studies/pattern-libraries-templates.png" caption="Page template options" %}
+{% include figure-big.html image="case-studies/pattern-libraries-13.png" alt="PX Pattern Library process improvements" %}
+
+{% include copy-block.html copy="Keep designers informed on library status." %}
+
+{% include figure-big.html image="case-studies/pattern-libraries-14.png" alt="PX Pattern Library documentation" %}
+
+{% include copy-block.html copy="Deliver engineering specifications and guidelines with the help of our accessibility partners." %}
+
+{% include figure-big.html image="case-studies/pattern-libraries-15.png" alt="PX Pattern Library next steps" %}
+
+{% include copy-block.html copy="Iterate and grow the design system following the support and governance models of the core team." %}
 
 {% include section-title.html label="Learnings" %}
 
@@ -100,4 +108,6 @@ exclude: true
 - Product designers have very biased opinions about component structure, library structure, and governance. The design system team should have been given more "final gavel" authority over the nuts-and-bolts of library structure and delivery.
 - Engineering commitment is necessary from "square one." We were dealing with a waterfall culture, and we could have moved more quickly with more leadership/stakeholder commitment. Follow the design system team's agile process for better results.
 
+<!--
 {% include figure-big.html image="case-studies/pattern-libraries-retro.png" caption="Project retro to reflect on successes and learnings" %}
+-->
