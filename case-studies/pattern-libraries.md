@@ -31,6 +31,7 @@ exclude: true
 - Ensuring adherence to core library token structure
 - Advocating for the best combination of system rules and designer experience
 - Engineering specs and engineering collaboration
+- Component documentation
 
 {% include section-title.html label="The story" %}
 
