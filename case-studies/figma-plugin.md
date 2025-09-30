@@ -75,7 +75,7 @@ Figma provides extensive information in their [Plugin Quickstart Guide](link htt
 	- The collapsed variant of each parent/child group
 - The [PX] SideNav-MySideNav organism. This is the component designers would place into their template.
 
-{% include figure-big.html image="case-studies/figma-plugin-output.png" caption="The Figma PX Sidenav plugin output" %}
+{% include figure-big.html image="case-studies/figma-plugin-output-v2.png" caption="The Figma PX Sidenav plugin output" %}
 
 {% include section-title.html label="Next steps" %}
 
