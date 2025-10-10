@@ -73,3 +73,6 @@ exclude:
 - vendor/ruby/
 - LICENSE
 - purgecss.config.js
+
+include:
+  - _headers
